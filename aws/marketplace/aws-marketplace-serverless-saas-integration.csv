@@ -1,0 +1,51 @@
+id,message,dirs,opinion,https://github.com/aws-samples/aws-marketplace-serverless-saas-integration/commits/master/
+f0775973f9a6bcb6d4ab11e73dd38d589568c564,"Merge pull request #84 from ozzambra/master
+Option to automatically update the SaaS fulfillment URL.",,additive,
+88a12af72c682747c5729c8e0f94b7c446ffde6a,Updated Tests with new parameters,,preventive,
+c31ca403783ea5e360bb677d28fc2e35ee974851,Parameter was added to control fulfilment page url update. Scoped down Customer Resource's Policy,,additive,
+75cf928ccea0d5653abcc73e7a19075c43b5d690,Updated Readme with ProductId,,preventive,
+304b097f2d58ed37d50551662cb7f0b0f79831f3,Product's fulfillment URL is updated via Catalog API. Templates requires onw ProductId instead of the ProductCode.,,perfective,
+f18331062f532c30e596cdbbf0def28cd0ca8008,"Merge pull request #83 from JoseRolles/master
+Remove post-deployment step to copy web content.",,adaptive,
+b3bed4a4d68598296fa4c04098c30bce16ab4a96,"Update template.yaml
+Fixed delete issue where code was not converted to using AWS SDK for JavaScript v3.",,corrective,
+3a8bc3e4b4780e9bcca8dd9fff94badf523d4264,"Update template.yaml
+Updated MIME type",,preventive,
+bea440264ea755ee82fad5fbefe50047c72ff9bc,"Update buildspec.yaml
+Removed lines that puts web directory from project.",,adaptive,
+eee3923ce21b420cb50aac01fbd32c1a398f9723,"Update template.yaml
+Added custom function and web content to automatically add the web files to the created S3 bucket.",,perfective,
+10e2606e7bac08606ff3ea48d6f80ed138329b05,"Delete web directory
+Deleting web directory. Files to be embedded in template.",,perfective,
+9332614ce00966e802a2222cc10e00f46a6bbc75,"Update README.md
+Removed reference to copy web content.",,preventive,
+991a50bdd99f481aebf728e0c567790195ddd872,"Merge pull request #82 from aws-samples/removing-stackname-dependencies
+removed stack name dependency and replaced with unique ID segment from stack arn instead",,perfective,
+7759a6a9776660b5073951762f37d33ac5ad7068,fixed .fifo suffix issue with sqs queue creation,,corrective,
+f7cc9e8c919fda93cafd29f900dbae94e64e0fe5,removed additional stackname dependencies,,perfective,
+b76fb7c3ef021558dbeb9a3b790aa114deb378df,removed stack name dependency and replaced with unique ID segment from stack arn instead,,perfective,
+48b99bd1bef80caf3e5d16fe32555b4610b849af,"Merge pull request #60 from charleswhchan/issue-57
+Fix #57 - Handle case when subscription was deleted and ExpirationDate is unavailable in Entitlement object",,corrective,
+19d8bed3e0f7556828f6e2bd03a75c5669d1b39c,"Merge pull request #79 from cloudbennett/master
+Minor cleanup to web/script.js, web/index.html and comments to src/register-new-subscriber.js",,preventive,
+d38ed023f1ac0b0c9d425973232c534b6eb65235,"Minor cleanup to web/script.js, web/index.html and comments to src/register-new-subscriber.js",,preventive,
+a9ae45aa93e52cc88737570fb82221c68ba99e07,"Merge pull request #77 from aws-samples/regionalization-enhancements
+Regionalization enhancements",,perfective,
+1d67a159a79ea253af44d60cd5f3d13b908a156f,"Update redirect.js
+Removed reference to the unused env variable",,preventive,
+64e2092b3a37e484c07ed68d93f19f18a19ae7ac,changed post build steps to reference the correct cloudformation output index,,adaptive,
+4795cad31abba0b5c877e36199c145b05dd8c2f5,added Capabilities named iam,,adaptive,
+32e465a27b518a8bb04df4262ba4500fa34b987a,removed sam package command and modified sam deploy to remove --template-file,,adaptive,
+797054c35d14b80a72a3a7659bd29bb5ad5eb6cb,updated buildspec,,adaptive,
+72336d85e862fa7f3d9b0d83803bac383b53ea71,Update README.md with new diagram reference,,preventive,
+c62330efe4d9479737f6bc4f02dfeba786baf431,adding updated diagram,,preventive,
+472cfde3d3d19e340e848b1ec4255a3b9a61c712,"Merge pull request #76 from lenopip/documentation-updates
+Documentation updates",,preventive,
+0f1e65e3a79d299ff8208234acb569bb25708dfc,fixed cd command,,corrective,
+d8d1ae2adc20519dd36391effb14c18caa6acba3,fixed numbering,,preventive,
+9ad36d75a140913cb5f23d6543a3531417649446,fixed numbering,,preventive,
+45bce421453542e9eef6e57af8dd6d03cbf55883,fixed numbering,,preventive,
+082887b78b8e63d3b5f396c9098df1aef536b60a,updated README instructions and diagram,,preventive,
+36049a6716ad85b2d471734eec4a9fb433c6eb5e,creating document update branch and adding initial changes,,perfective,
+cf5fe843c8debeaec7051a275e3f49188076ae4d,"Merge pull request #75 from lenopip/deployment-improvements
+Deployment improvements",,adaptive,

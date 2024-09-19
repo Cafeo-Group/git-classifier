@@ -1,0 +1,61 @@
+id,message,dirs,opinion,https://github.com/spring-guides/gs-accessing-data-jpa/
+88433bade2001e4da88e518206ab9826a8f38087,"Update dependabot and Gradle files
+This commit changes the dependency-management plugin in Gradle
+build files so that the version number is not set excplicitly
+but rather managed by Boot.",,adaptive,
+8ba91678036420e0b8b6f3ff005a8d1a8c56831a,remove unused run.sh. (#68),,adaptive,
+657ded34366357d1df034c8b4e184d8a33816cd3,Create dependabot config file,,preventive,
+2019310a8a7c9e47e6bbdb4ea0f0d2e9dbbbe695,Update CI to use a shared build,,adaptive,
+8e9d4a49a1d396451a56175d00f7b15e97b03414,"Upgrade Spring Boot to 3.3.0.
+Had to upgrade the Gradle wrapper, too.",,adaptive,
+09c804f7d67f9e4d68e0a4e67cde308a926b1387,Remove Jenkinsfile since we now have a GitHub action.,,preventive,
+f74c592c49b3c71727209cfc27fc2a8f61edb5eb,Update to Spring Boot 3.2.0,,adaptive,
+1faa3cdd097f9a3729fdb21ccf61bc3313887015,Update Spring Boot version to 3.1.5,,adaptive,
+98807ac743d3d6c9e1a2d18bb835b2fff6d18608,"Clean up application run source
+Remove the comment section and also the for loop and replacing it likewise with the findByLastname fetching method",,perfective,
+bd37d19750d7d23885dcff20538794656dde94c8,Added GitHub Actions,,additive,
+cff6aae8169aa93ba7bbfee94984c0784f40e258,Upgrade to Spring Boot 3.1.0,,adaptive,
+968981c6a08362eab5ef864b86418347e959bb1d,"Remove the Java version
+to use the default.
+
+Also update the Initializr link.",,preventive,
+c220f535fbd1cedb6ec023256af52c6272e64c13,"Update the Jenkins path
+to get the build to work on the server.",,adaptive,
+4a9fd52f8dc4b4ada52613476a8338d088931634,Upgrade Jenkins to Java 17,,adaptive,
+80ffc79a2e6955123b9cc264a2debbd00db28949,"Upgrade to Spring Boot 3.0.0
+including changing javax.persistence to jakarta.persistence.",,adaptive,
+e06d8cf55401e32222f4cebcda12bd71ccc68fd4,Set Java version to 1.8,,adaptive,
+eef3f709242c2aabd64bf82d3f4ecb04cee6c45e,"Upgrade Boot and Gradle versions
+to 2.7.0 and 7.4.2, respectively.",,adaptive,
+7f3f43782b8b30c5d6bcf725ebd4687875f5fbac,Update to Spring Boot 2.6.3,,adaptive,
+a4905daf9584ea0731b559be9934b20aa9b5a085,"Add pre-populated Initializr link
+to fill in the project settings, as a convenience.",,additive,
+6148e3ec29278f8c7765cbfe2d79a1d500a99b1b,"Update to Boot 2.5.2
+Boot 2.5.2 required a newer version of Gradle, too, so I updated it
+to the current version (7.1 as of this writing).",,adaptive,
+c149d117edeb4a116f2caae755e49803b8132a30,Migrate to maven wrapper.,,adaptive,
+2768e34ff60deab99483b9c6ef8fb8165d820aec,Migrate to Jenkins for CI.,,adaptive,
+159dbe49fd91ba7e3f0cff437c98edcb5298b419,Migrate to Jenkins for CI.,,adaptive,
+cf7c798c1b5334ae0933e16efa59ac5c9d3ab9b6,Migrate from master to main.,,preventive,
+fb2604818b6cad95a535b2446caf8d799f542036,"Set JVM to 1.8
+Correct JVM version 11 to version 1.8 in the Initializr links.",,preventive,
+eb3cfe616b00add92a3df9023c39b02635d81a01,"Improved the Spring Initializr section
+Removed some redundancy in the links and added a manual option.
+Also bumped the Spring Boot version to 2.4.3, to keep it current.",,perfective,
+abd99ea0152a59f1377582f79f9db7db2f8446b6,Use Java 8,,adaptive,
+81f158b7fcf8a751d394b6044fd84f67c3322d6c,"Update openjdk version
+to version 11, as the new builds require.",,adaptive,
+fb554b2681f018db6e2bb281ddd369be6a654ae8,"Upgrade to Boot 2.4.2
+Keeping the build files current and adding deep links to the Intializr.",,adaptive,
+31ff9f1ea09120f0f6682ad228a1b372ef0d72dc,Upgrade LICENSE file to comply with standards.,,adaptive,
+b3677c40156e05ae45d734b873f49b52b50dbdab,"Version update
+Updated the Spring Boot, Gradle, and Maven versions.
+
+Also removed the Initializr image and updated the README to match.",,adaptive,
+b3af19a0513c86cf9f36db753705bd5807352423,"replace findOne() with findById(), addresses issue #52
+Beta
+Give feedback",,corrective,
+071d91f0efd57655e90671426050d5c3c8f85ac1,"removed duplicate block, addresses issue #53",,preventive,
+1dae7f2a673289c4dfe38288599e9e470e26a75b,Resolve java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException: javax.xml.bind.JAXBException,,adaptive,
+c8b804a0d6cb0f2b22f17f463a628d5215cbf91d,"Update README.adoc
+The world in the NOTE line 30 : `accesing-data-jpa` spell wrong",,corrective,

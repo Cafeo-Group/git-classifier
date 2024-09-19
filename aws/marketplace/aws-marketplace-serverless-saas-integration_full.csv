@@ -1,0 +1,100 @@
+id,message,dirs,opinion,https://github.com/aws-samples/aws-marketplace-serverless-saas-integration/commits/master/,pull_req_id,pull_req_title,pull_req_body
+f0775973f9a6bcb6d4ab11e73dd38d589568c564,"Merge pull request #84 from ozzambra/master
+Option to automatically update the SaaS fulfillment URL.",empty empty empty,additive,,84.0,fulfillmentURL update is now automated. ,"Updating the fulfillment URL in AWS Marketplace Management Portal is automatically done while deploying the template. This is no longer a manual step for the seller. 
+
+Note: The template requires the AWS Marketplace Product ID instead of the Product Code, as it was before. Product Code is retrieved by an API call.
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+"
+88a12af72c682747c5729c8e0f94b7c446ffde6a,Updated Tests with new parameters,empty,preventive,,83.0,Remove post-deployment step to copy web content.,Removed web directory in repo. Embedded contents of web directory into template.yaml. Added custom function to automatically put contents to S3 bucket created in template.
+c31ca403783ea5e360bb677d28fc2e35ee974851,Parameter was added to control fulfilment page url update. Scoped down Customer Resource's Policy,empty,additive,,82.0,removed stack name dependency and replaced with unique ID segment fro…,"…m stack arn instead
+
+*Issue #, if available:*
+29 - long stack names cause the application to fail
+
+*Description of changes:*
+change the naming method for cloudfront origin to remove the stackname dependency
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+"
+75cf928ccea0d5653abcc73e7a19075c43b5d690,Updated Readme with ProductId,empty,preventive,,60.0,Fix #57 - Handle case when subscription was deleted and ExpirationDate is unavailable in Entitlement object,
+304b097f2d58ed37d50551662cb7f0b0f79831f3,Product's fulfillment URL is updated via Catalog API. Templates requires onw ProductId instead of the ProductCode.,empty,perfective,,79.0,"Minor cleanup to web/script.js, web/index.html and comments to src/re…","…gister-new-subscriber.js
+
+*Issue #, if available:*
+
+*Description of changes:*
+
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+"
+f18331062f532c30e596cdbbf0def28cd0ca8008,"Merge pull request #83 from JoseRolles/master
+Remove post-deployment step to copy web content.",empty empty empty web,adaptive,,77.0,Regionalization enhancements,"*Issue #, if available:*
+13, 64
+
+*Description of changes:*
+- Adds support for deployment in other regions
+- adds option to create cross account role for accessing dynamo tables
+- removes lambda edge
+- removes the need to update the /web/scripts.js file after launch
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+"
+b3bed4a4d68598296fa4c04098c30bce16ab4a96,"Update template.yaml
+Fixed delete issue where code was not converted to using AWS SDK for JavaScript v3.",empty,corrective,,76.0,Documentation updates,"*Issue #, if available:*
+
+*Description of changes:*
+Updated documentation to include the new diagram and switch to SAM guided deployment experience.
+"
+3a8bc3e4b4780e9bcca8dd9fff94badf523d4264,"Update template.yaml
+Updated MIME type",empty,preventive,,75.0,Deployment improvements,"*Issue #, if available:*
+
+*Description of changes:*
+* eliminated the need to update the script.js file
+* eliminated the need to update the redirect.js lambda environment variable
+* added s3 web bucket to outputs
+* fixed issues with defaults values for boolean parameters
+* remove the redirect url output since it is no longer needed
+
+
+
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+"
+bea440264ea755ee82fad5fbefe50047c72ff9bc,"Update buildspec.yaml
+Removed lines that puts web directory from project.",empty,adaptive,,,,
+eee3923ce21b420cb50aac01fbd32c1a398f9723,"Update template.yaml
+Added custom function and web content to automatically add the web files to the created S3 bucket.",empty,perfective,,,,
+10e2606e7bac08606ff3ea48d6f80ed138329b05,"Delete web directory
+Deleting web directory. Files to be embedded in template.",web,perfective,,,,
+9332614ce00966e802a2222cc10e00f46a6bbc75,"Update README.md
+Removed reference to copy web content.",empty,preventive,,,,
+991a50bdd99f481aebf728e0c567790195ddd872,"Merge pull request #82 from aws-samples/removing-stackname-dependencies
+removed stack name dependency and replaced with unique ID segment from stack arn instead",empty,perfective,,,,
+7759a6a9776660b5073951762f37d33ac5ad7068,fixed .fifo suffix issue with sqs queue creation,empty,corrective,,,,
+f7cc9e8c919fda93cafd29f900dbae94e64e0fe5,removed additional stackname dependencies,empty,perfective,,,,
+b76fb7c3ef021558dbeb9a3b790aa114deb378df,removed stack name dependency and replaced with unique ID segment from stack arn instead,empty,perfective,,,,
+48b99bd1bef80caf3e5d16fe32555b4610b849af,"Merge pull request #60 from charleswhchan/issue-57
+Fix #57 - Handle case when subscription was deleted and ExpirationDate is unavailable in Entitlement object",src,corrective,,,,
+19d8bed3e0f7556828f6e2bd03a75c5669d1b39c,"Merge pull request #79 from cloudbennett/master
+Minor cleanup to web/script.js, web/index.html and comments to src/register-new-subscriber.js",src web,preventive,,,,
+d38ed023f1ac0b0c9d425973232c534b6eb65235,"Minor cleanup to web/script.js, web/index.html and comments to src/register-new-subscriber.js",src web,preventive,,,,
+a9ae45aa93e52cc88737570fb82221c68ba99e07,"Merge pull request #77 from aws-samples/regionalization-enhancements
+Regionalization enhancements",empty empty empty misc src src/lambda-edge empty web,perfective,,,,
+1d67a159a79ea253af44d60cd5f3d13b908a156f,"Update redirect.js
+Removed reference to the unused env variable",src,preventive,,,,
+64e2092b3a37e484c07ed68d93f19f18a19ae7ac,changed post build steps to reference the correct cloudformation output index,empty,adaptive,,,,
+4795cad31abba0b5c877e36199c145b05dd8c2f5,added Capabilities named iam,empty,adaptive,,,,
+32e465a27b518a8bb04df4262ba4500fa34b987a,removed sam package command and modified sam deploy to remove --template-file,empty,adaptive,,,,
+797054c35d14b80a72a3a7659bd29bb5ad5eb6cb,updated buildspec,empty,adaptive,,,,
+72336d85e862fa7f3d9b0d83803bac383b53ea71,Update README.md with new diagram reference,empty,preventive,,,,
+c62330efe4d9479737f6bc4f02dfeba786baf431,adding updated diagram,misc,preventive,,,,
+472cfde3d3d19e340e848b1ec4255a3b9a61c712,"Merge pull request #76 from lenopip/documentation-updates
+Documentation updates",empty misc,preventive,,,,
+0f1e65e3a79d299ff8208234acb569bb25708dfc,fixed cd command,empty,corrective,,,,
+d8d1ae2adc20519dd36391effb14c18caa6acba3,fixed numbering,empty,preventive,,,,
+9ad36d75a140913cb5f23d6543a3531417649446,fixed numbering,empty,preventive,,,,
+45bce421453542e9eef6e57af8dd6d03cbf55883,fixed numbering,empty,preventive,,,,
+082887b78b8e63d3b5f396c9098df1aef536b60a,updated README instructions and diagram,empty misc,preventive,,,,
+36049a6716ad85b2d471734eec4a9fb433c6eb5e,creating document update branch and adding initial changes,empty,perfective,,,,
+cf5fe843c8debeaec7051a275e3f49188076ae4d,"Merge pull request #75 from lenopip/deployment-improvements
+Deployment improvements",src empty web,adaptive,,,,
