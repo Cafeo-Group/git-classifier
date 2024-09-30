@@ -1,0 +1,1076 @@
+id,message,dirs,pull_req_id,pull_req_title,pull_req_body,opinion,ecosystem,repo
+88433bade2001e4da88e518206ab9826a8f38087,"Update dependabot and Gradle files
+
+This commit changes the dependency-management plugin in Gradle
+build files so that the version number is not set excplicitly
+but rather managed by Boot.",initial .github complete,68.0,remove unused run.sh.,"#67 
+removed run.sh.",adaptive,spring-guides,gs-accessing-data-jpa
+8ba91678036420e0b8b6f3ff005a8d1a8c56831a,"remove unused run.sh. (#68)
+
+Co-authored-by: kimhk <kimhk@goodmit.co.kr>",test,65.0,Update Spring Boot version to 3.1.5,"Update Spring Boot version throughout the repo to 3.1.5 (latest currently).
+
+Fixes #64",adaptive,spring-guides,gs-accessing-data-jpa
+657ded34366357d1df034c8b4e184d8a33816cd3,Create dependabot config file,.github,62.0,Clean up application run source,Remove the comment section and also the for loop and replacing it likewise with the findByLastname() fetching method,preventive,spring-guides,gs-accessing-data-jpa
+2019310a8a7c9e47e6bbdb4ea0f0d2e9dbbbe695,Update CI to use a shared build,.github/workflows,59.0,Update to Spring Boot 2.6.3,,adaptive,spring-guides,gs-accessing-data-jpa
+8e9d4a49a1d396451a56175d00f7b15e97b03414,"Upgrade Spring Boot to 3.3.0.
+
+Had to upgrade the Gradle wrapper, too.",complete/gradle/wrapper initial initial/gradle/wrapper complete,54.0,Version update,"Updated the Spring Boot version and the Gradle and Maven wrappers.
+
+Also removed the Initializr image and updated the README to match.",adaptive,spring-guides,gs-accessing-data-jpa
+09c804f7d67f9e4d68e0a4e67cde308a926b1387,Remove Jenkinsfile since we now have a GitHub action.,.,55.0,Removed duplicate block and fixed wrong method,,preventive,spring-guides,gs-accessing-data-jpa
+f74c592c49b3c71727209cfc27fc2a8f61edb5eb,"Update to Spring Boot 3.2.0
+
+Also fixed a typo in the readme.",initial complete .,50.0,Update README.adoc,The world in the NOTE line 30 : `accesing-data-jpa` spell wrong,adaptive,spring-guides,gs-accessing-data-jpa
+1faa3cdd097f9a3729fdb21ccf61bc3313887015,"Update Spring Boot version to 3.1.5
+
+Signed-off-by: Oscar <71343264+0scvr@users.noreply.github.com>",initial complete .,,,,adaptive,spring-guides,gs-accessing-data-jpa
+98807ac743d3d6c9e1a2d18bb835b2fff6d18608,"Clean up application run source
+
+Remove the comment section and also the for loop and replacing it likewise with the findByLastname fetching method",complete/src/main/java/com/example/accessingdatajpa,,,,perfective,spring-guides,gs-accessing-data-jpa
+bd37d19750d7d23885dcff20538794656dde94c8,Added GitHub Actions,.github/workflows,,,,additive,spring-guides,gs-accessing-data-jpa
+cff6aae8169aa93ba7bbfee94984c0784f40e258,Upgrade to Spring Boot 3.1.0,initial complete .,,,,adaptive,spring-guides,gs-accessing-data-jpa
+968981c6a08362eab5ef864b86418347e959bb1d,"Remove the Java version
+
+to use the default.
+
+Also update the Initializr link.",.,,,,preventive,spring-guides,gs-accessing-data-jpa
+c220f535fbd1cedb6ec023256af52c6272e64c13,"Update the Jenkins path
+
+to get the build to work on the server.",.,,,,adaptive,spring-guides,gs-accessing-data-jpa
+4a9fd52f8dc4b4ada52613476a8338d088931634,Upgrade Jenkins to Java 17,.,,,,adaptive,spring-guides,gs-accessing-data-jpa
+80ffc79a2e6955123b9cc264a2debbd00db28949,"Upgrade to Spring Boot 3.0.0
+
+including changing javax.persistence to jakarta.persistence.",initial complete/src/main/java/com/example/accessingdatajpa complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+e06d8cf55401e32222f4cebcda12bd71ccc68fd4,Set Java version to 1.8,initial complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+eef3f709242c2aabd64bf82d3f4ecb04cee6c45e,"Upgrade Boot and Gradle versions
+
+to 2.7.0 and 7.4.2, respectively.",complete/gradle/wrapper initial initial/gradle/wrapper complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+7f3f43782b8b30c5d6bcf725ebd4687875f5fbac,Update to Spring Boot 2.6.3,initial complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+a4905daf9584ea0731b559be9934b20aa9b5a085,"Add pre-populated Initializr link
+
+to fill in the project settings, as a convenience.",.,,,,additive,spring-guides,gs-accessing-data-jpa
+6148e3ec29278f8c7765cbfe2d79a1d500a99b1b,"Update to Boot 2.5.2
+
+Boot 2.5.2 required a newer version of Gradle, too, so I updated it
+to the current version (7.1 as of this writing).",complete/gradle/wrapper initial initial/gradle/wrapper complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+c149d117edeb4a116f2caae755e49803b8132a30,Migrate to maven wrapper.,test,,,,adaptive,spring-guides,gs-accessing-data-jpa
+2768e34ff60deab99483b9c6ef8fb8165d820aec,Migrate to Jenkins for CI.,.,,,,adaptive,spring-guides,gs-accessing-data-jpa
+159dbe49fd91ba7e3f0cff437c98edcb5298b419,Migrate to Jenkins for CI.,.,,,,adaptive,spring-guides,gs-accessing-data-jpa
+cf7c798c1b5334ae0933e16efa59ac5c9d3ab9b6,Migrate from master to main.,.,,,,preventive,spring-guides,gs-accessing-data-jpa
+fb2604818b6cad95a535b2446caf8d799f542036,"Set JVM to 1.8
+
+Correct JVM version 11 to version 1.8 in the Initializr links.",.,,,,preventive,spring-guides,gs-accessing-data-jpa
+eb3cfe616b00add92a3df9023c39b02635d81a01,"Improved the Spring Initializr section
+
+Removed some redundancy in the links and added a manual option.
+Also bumped the Spring Boot version to 2.4.3, to keep it current.",initial complete .,,,,perfective,spring-guides,gs-accessing-data-jpa
+abd99ea0152a59f1377582f79f9db7db2f8446b6,"Use Java 8
+
+Set travis.yml and the build files to Java 8.",initial complete .,,,,adaptive,spring-guides,gs-accessing-data-jpa
+81f158b7fcf8a751d394b6044fd84f67c3322d6c,"Update openjdk version
+
+to version 11, as the new builds require.",.,,,,adaptive,spring-guides,gs-accessing-data-jpa
+fb554b2681f018db6e2bb281ddd369be6a654ae8,"Upgrade to Boot 2.4.2
+
+Keeping the build files current and adding deep links to the Intializr.",initial complete .,,,,adaptive,spring-guides,gs-accessing-data-jpa
+31ff9f1ea09120f0f6682ad228a1b372ef0d72dc,Upgrade LICENSE file to comply with standards.,.,,,,adaptive,spring-guides,gs-accessing-data-jpa
+b3677c40156e05ae45d734b873f49b52b50dbdab,"Version update
+
+Updated the Spring Boot, Gradle, and Maven versions.
+
+Also removed the Initializr image and updated the README to match.",initial/.mvn/wrapper initial/gradle/wrapper . initial complete/.mvn/wrapper complete/gradle/wrapper images complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+b3af19a0513c86cf9f36db753705bd5807352423,"replace findOne() with findById(), addresses issue #52",.,,,,corrective,spring-guides,gs-accessing-data-jpa
+071d91f0efd57655e90671426050d5c3c8f85ac1,"removed duplicate block, addresses issue #53",.,,,,preventive,spring-guides,gs-accessing-data-jpa
+1dae7f2a673289c4dfe38288599e9e470e26a75b,"Resolve java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException: javax.xml.bind.JAXBException
+
+https://github.com/spring-guides/gs-accessing-data-jpa/issues/29",initial,,,,adaptive,spring-guides,gs-accessing-data-jpa
+c8b804a0d6cb0f2b22f17f463a628d5215cbf91d,"Update README.adoc
+
+The world in the NOTE line 30 : `accesing-data-jpa` spell wrong",.,,,,corrective,spring-guides,gs-accessing-data-jpa
+f0775973f9a6bcb6d4ab11e73dd38d589568c564,"Merge pull request #84 from ozzambra/master
+
+Option to automatically update the SaaS fulfillment URL.",.,84.0,fulfillmentURL update is now automated. ,"Updating the fulfillment URL in AWS Marketplace Management Portal is automatically done while deploying the template. This is no longer a manual step for the seller. 
+
+Note: The template requires the AWS Marketplace Product ID instead of the Product Code, as it was before. Product Code is retrieved by an API call.
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",additive,aws-samples,aws-marketplace-serverless-saas-integration
+88a12af72c682747c5729c8e0f94b7c446ffde6a,Updated Tests with new parameters,.,83.0,Remove post-deployment step to copy web content.,Removed web directory in repo. Embedded contents of web directory into template.yaml. Added custom function to automatically put contents to S3 bucket created in template.,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+c31ca403783ea5e360bb677d28fc2e35ee974851,Parameter was added to control fulfilment page url update. Scoped down Customer Resource's Policy,.,82.0,removed stack name dependency and replaced with unique ID segment fro…,"…m stack arn instead
+
+*Issue #, if available:*
+29 - long stack names cause the application to fail
+
+*Description of changes:*
+change the naming method for cloudfront origin to remove the stackname dependency
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",additive,aws-samples,aws-marketplace-serverless-saas-integration
+75cf928ccea0d5653abcc73e7a19075c43b5d690,Updated Readme with ProductId,.,60.0,Fix #57 - Handle case when subscription was deleted and ExpirationDate is unavailable in Entitlement object,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+304b097f2d58ed37d50551662cb7f0b0f79831f3,Product's fulfillment URL is updated via Catalog API. Templates requires onw ProductId instead of the ProductCode.,.,79.0,"Minor cleanup to web/script.js, web/index.html and comments to src/re…","…gister-new-subscriber.js
+
+*Issue #, if available:*
+
+*Description of changes:*
+
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",perfective,aws-samples,aws-marketplace-serverless-saas-integration
+f18331062f532c30e596cdbbf0def28cd0ca8008,"Merge pull request #83 from JoseRolles/master
+
+Remove post-deployment step to copy web content.",web .,77.0,Regionalization enhancements,"*Issue #, if available:*
+13, 64
+
+*Description of changes:*
+- Adds support for deployment in other regions
+- adds option to create cross account role for accessing dynamo tables
+- removes lambda edge
+- removes the need to update the /web/scripts.js file after launch
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,aws-marketplace-serverless-saas-integration
+b3bed4a4d68598296fa4c04098c30bce16ab4a96,"Update template.yaml
+
+Fixed delete issue where code was not converted to using AWS SDK for JavaScript v3.",.,76.0,Documentation updates,"*Issue #, if available:*
+
+*Description of changes:*
+Updated documentation to include the new diagram and switch to SAM guided deployment experience.
+",corrective,aws-samples,aws-marketplace-serverless-saas-integration
+3a8bc3e4b4780e9bcca8dd9fff94badf523d4264,"Update template.yaml
+
+Updated MIME type",.,75.0,Deployment improvements,"*Issue #, if available:*
+
+*Description of changes:*
+* eliminated the need to update the script.js file
+* eliminated the need to update the redirect.js lambda environment variable
+* added s3 web bucket to outputs
+* fixed issues with defaults values for boolean parameters
+* remove the redirect url output since it is no longer needed
+
+
+
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",preventive,aws-samples,aws-marketplace-serverless-saas-integration
+bea440264ea755ee82fad5fbefe50047c72ff9bc,"Update buildspec.yaml
+
+Removed lines that puts web directory from project.",.,,,,adaptive,aws-samples,aws-marketplace-serverless-saas-integration
+eee3923ce21b420cb50aac01fbd32c1a398f9723,"Update template.yaml
+
+Added custom function and web content to automatically add the web files to the created S3 bucket.",.,,,,perfective,aws-samples,aws-marketplace-serverless-saas-integration
+10e2606e7bac08606ff3ea48d6f80ed138329b05,"Delete web directory
+
+Deleting web directory. Files to be embedded in template.",web,,,,perfective,aws-samples,aws-marketplace-serverless-saas-integration
+9332614ce00966e802a2222cc10e00f46a6bbc75,"Update README.md
+
+Removed reference to copy web content.",.,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+991a50bdd99f481aebf728e0c567790195ddd872,"Merge pull request #82 from aws-samples/removing-stackname-dependencies
+
+removed stack name dependency and replaced with unique ID segment fro…",.,,,,perfective,aws-samples,aws-marketplace-serverless-saas-integration
+7759a6a9776660b5073951762f37d33ac5ad7068,fixed .fifo suffix issue with sqs queue creation,.,,,,corrective,aws-samples,aws-marketplace-serverless-saas-integration
+f7cc9e8c919fda93cafd29f900dbae94e64e0fe5,removed additional stackname dependencies,.,,,,perfective,aws-samples,aws-marketplace-serverless-saas-integration
+b76fb7c3ef021558dbeb9a3b790aa114deb378df,removed stack name dependency and replaced with unique ID segment from stack arn instead,.,,,,perfective,aws-samples,aws-marketplace-serverless-saas-integration
+48b99bd1bef80caf3e5d16fe32555b4610b849af,"Merge pull request #60 from charleswhchan/issue-57
+
+Fix #57 - Handle case when subscription was deleted and ExpirationDate is unavailable in Entitlement object",src,,,,corrective,aws-samples,aws-marketplace-serverless-saas-integration
+19d8bed3e0f7556828f6e2bd03a75c5669d1b39c,"Merge pull request #79 from cloudbennett/master
+
+Minor cleanup to web/script.js, web/index.html and comments to src/re…",src web,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+d38ed023f1ac0b0c9d425973232c534b6eb65235,"Minor cleanup to web/script.js, web/index.html and comments to src/register-new-subscriber.js",src web,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+a9ae45aa93e52cc88737570fb82221c68ba99e07,"Merge pull request #77 from aws-samples/regionalization-enhancements
+
+Regionalization enhancements",web . misc src src/lambda-edge,,,,perfective,aws-samples,aws-marketplace-serverless-saas-integration
+1d67a159a79ea253af44d60cd5f3d13b908a156f,"Update redirect.js
+
+Removed reference to the unused env variable",src,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+64e2092b3a37e484c07ed68d93f19f18a19ae7ac,changed post build steps to reference the correct cloudformation output index,.,,,,adaptive,aws-samples,aws-marketplace-serverless-saas-integration
+4795cad31abba0b5c877e36199c145b05dd8c2f5,added Capabilities named iam,.,,,,adaptive,aws-samples,aws-marketplace-serverless-saas-integration
+32e465a27b518a8bb04df4262ba4500fa34b987a,removed sam package command and modified sam deploy to remove --template-file,.,,,,adaptive,aws-samples,aws-marketplace-serverless-saas-integration
+797054c35d14b80a72a3a7659bd29bb5ad5eb6cb,updated buildspec,.,,,,adaptive,aws-samples,aws-marketplace-serverless-saas-integration
+72336d85e862fa7f3d9b0d83803bac383b53ea71,Update README.md with new diagram reference,.,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+c62330efe4d9479737f6bc4f02dfeba786baf431,adding updated diagram,misc,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+472cfde3d3d19e340e848b1ec4255a3b9a61c712,"Merge pull request #76 from lenopip/documentation-updates
+
+Documentation updates",misc .,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+0f1e65e3a79d299ff8208234acb569bb25708dfc,fixed cd command,.,,,,corrective,aws-samples,aws-marketplace-serverless-saas-integration
+d8d1ae2adc20519dd36391effb14c18caa6acba3,fixed numbering,.,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+9ad36d75a140913cb5f23d6543a3531417649446,fixed numbering,.,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+45bce421453542e9eef6e57af8dd6d03cbf55883,fixed numbering,.,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+082887b78b8e63d3b5f396c9098df1aef536b60a,updated README instructions and diagram,misc .,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
+36049a6716ad85b2d471734eec4a9fb433c6eb5e,creating document update branch and adding initial changes,.,,,,perfective,aws-samples,aws-marketplace-serverless-saas-integration
+cf5fe843c8debeaec7051a275e3f49188076ae4d,"Merge pull request #75 from lenopip/deployment-improvements
+
+Deployment improvements",src web .,,,,adaptive,aws-samples,aws-marketplace-serverless-saas-integration
+14931eec3bc45758c59e7503762912fb779a1ecb,update .devcontainer file (#68),docs/assets code/quarkus-telemetry .devcontainer .,68.0,update .devcontainer file,"#67
+
+update .devcontainer.json and add docs",adaptive,Azure-Samples,java-native-telemetry
+f6cd41700c9da44a74abfd1703369673740024bd,Update VeggieController.java (#70),code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller,70.0,Type mismatch in VeggieController.java,"There is a type mismatch in VeggieController.java.
+The field ""id"" is defined with String in Veggie.java, while a parameter in methods ""deleteVeggie"" and ""getVeggieById"" is defined with Long. If this mismatch is not fixed, both methods always return 400 (Bad request).",perfective,Azure-Samples,java-native-telemetry
+7521a568bc7a62717c43b2540aeefa6b2fab5667,Bump quarkus-opentelemetry-exporter-azure (#69),code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-vegetable,69.0,Bump quarkus-opentelemetry-exporter-azure,Fix this issue: https://github.com/Azure/azure-sdk-for-java/issues/41040,adaptive,Azure-Samples,java-native-telemetry
+37c58f2314e2236557944f71e44f172b170f9f3f,Remove workaround for Spring native (#62),code/spring-boot-telemetry/src/main/resources/META-INF/native-image code/spring-boot-telemetry/src/main/resources/native-image,62.0,Remove workaround for Spring native, Bug fixed with https://github.com/Azure-Samples/java-native-telemetry/pull/61 (see https://github.com/Azure/azure-sdk-for-java/pull/40151).,perfective,Azure-Samples,java-native-telemetry
+d9fcd99520f9af723ac59e40c13bcf8d0cb7a208,Bump Spring telemetry dependency (#61),code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry,61.0,Bump Spring telemetry dependency,,adaptive,Azure-Samples,java-native-telemetry
+9b8e68afbdc409b7711b4c6afdae787841f49dbe,bump to quarkus 3.11.2 (#59),code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-vegetable code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/java/com/azure/examples/quarkus/client,59.0,Bump to Quarkus 3.11.2,,adaptive,Azure-Samples,java-native-telemetry
+b12e2b0787acf9ca66d1596955313b08937598a8,Add missing dependencies (#56),code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-vegetable code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/resources,56.0,Add missing dependencies,,adaptive,Azure-Samples,java-native-telemetry
+c6a5bdfc75c864b4e0754e8a4df984ddc56d0c9b,"New main with all the monitoring on (#52)
+
+* added otel
+
+* add application insights connection
+
+* Create an auto-deploy file
+
+* change order
+
+* clean dockerfile
+
+* JAR signature verification for ahead-of-time (AOT)
+
+* update container app name
+
+* update paths
+
+* update action
+
+* update java version
+
+* add buildarg
+
+* update graalvm options
+
+* add graalvm native
+
+* change to ce22 instead of muslib
+
+* wrap args
+
+* jvmarg
+
+* update folder structure
+
+* remove optional arg
+
+* update path
+
+* update path
+
+* Adding 'Init-at-build-time' args and removing musl
+
+* Back to using MUSL
+
+* Update Dockerfile to use 21
+
+* Update Dockerfile
+
+* update gh action for main branch
+
+* add spring app name
+
+* Update sakriema-native-spring-AutoDeployTrigger-a70b357f-0a8a-41f1-9ce9-53a5cef3123e.yml
+
+* Create an auto-deploy file
+
+* set trigger path fot whole quarkus superheros app
+
+* Update quarkus-native-monitoring-AutoDeployTrigger-cd1d418e-9e7d-4855-bcfa-dc4948f26827.yml
+
+use absolute path
+
+* Update quarkus-native-monitoring-AutoDeployTrigger-cd1d418e-9e7d-4855-bcfa-dc4948f26827.yml
+
+reset to relative path
+
+* Update quarkus-native-monitoring-AutoDeployTrigger-cd1d418e-9e7d-4855-bcfa-dc4948f26827.yml
+
+debug echos for gh action
+
+* add env variables
+
+* typo
+
+* add path
+
+* Copy multistage dockerfile from src/main/docker
+
+* Update quarkus-native-monitoring-AutoDeployTrigger-cd1d418e-9e7d-4855-bcfa-dc4948f26827.yml
+
+change database url back to pure postkresql
+
+* remove custom sys vars from dockerfile
+
+* cleanups
+
+* DB config tweak
+
+* add application insights connection string
+
+* typo
+
+* add quarkus call
+
+* merge main
+
+* Endpoint with exception
+
+* Update aca-spring-native-AutoDeployTrigger-78625412-9760-4d65-82c5-5b228fd9ff1b.yml
+
+* Unlink the containerApp aca-spring-native from this repo
+
+* remove IT test
+
+* Update sakriema-native-spring-AutoDeployTrigger-a70b357f-0a8a-41f1-9ce9-53a5cef3123e.yml
+
+* remove action to reset it
+
+* remove action from branch
+
+* Create an auto-deploy file
+
+* add env variables
+
+* add missing dependency
+
+* readd needed buildArg to pom.xml
+
+* skip tests
+
+* Update application.properties
+
+* recreate table at service deployment
+
+* add misssing superhero service url
+
+* enable root for spring service
+
+* Update application.properties
+
+Revert to update
+
+* use Strings for ID
+
+* create db
+
+* update orm in quarkus
+
+* Update quarkus-native-monitoring-AutoDeployTrigger-cd1d418e-9e7d-4855-bcfa-dc4948f26827.yml
+
+update database url
+
+* Update Spring app
+
+* hibernate generation mode
+
+* Rename Quarkus app
+
+(cherry picked from commit bc49d3cfa80902dbef548b450311632883d754ff)
+
+* update tests
+
+* Hello  DevoxxFR
+
+* Rename branches to main on github actions
+
+* Update code/spring-boot-telemetry/src/main/resources/application.properties
+
+* Update code/spring-boot-telemetry/src/main/resources/application.properties
+
+* address PR review
+
+---------
+
+Co-authored-by: SandraAhlgrimm <sakriema@microsoft.com>
+Co-authored-by: Sandra Ahlgrimm <sandra.kriemann@gmail.com>
+Co-authored-by: Dominique Broeglin <dominique.broeglin@gmail.com>
+Co-authored-by: Jean Bisutti <jean.bisutti@gmail.com>",.github/workflows code/quarkus-telemetry/quarkus-telemetry-superhero code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot code/spring-boot-telemetry code/spring-boot-telemetry/src/test/java/com/azure/examples/springboot/controller code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/docker code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/resources code/spring-boot-telemetry/src/main/resources/META-INF/native-image,52.0,New main with all the monitoring on,,perfective,Azure-Samples,java-native-telemetry
+3f85c35e1f604ba68a8fcd6da0e4ebd43a8f00d7,"Merge pull request #49 from brunobat/main
+
+Remove it test from main",code/quarkus-telemetry/quarkus-telemetry-superhero/src/test/java/com/azure/examples/quarkus/superhero/message,49.0,Remove it test from main,,perfective,Azure-Samples,java-native-telemetry
+ba426a4fb5092bb27a7ccd1b378cc0e4b24bdbba,Reuse create-drop for Hibernate DDL (#47),code/spring-boot-telemetry/src/main/resources code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/resources,47.0,Reuse create-drop for Hibernate DDL,,perfective,Azure-Samples,java-native-telemetry
+3c20a84038290ca0ee4a5cdac893077957ff0478,Remove it test from main,code/quarkus-telemetry/quarkus-telemetry-superhero/src/test/java/com/azure/examples/quarkus/superhero/message,45.0,Rename Quarkus app,,perfective,Azure-Samples,java-native-telemetry
+874e5550b3e162097c9d760ce4ee7be61d551125,"Merge pull request #45 from Azure-Samples/rename-quarkus-app
+
+Rename Quarkus app",code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/resources,48.0,Workaround for Spring native monitoring bug,Bur reported: https://github.com/Azure/azure-sdk-for-java/issues/39699,preventive,Azure-Samples,java-native-telemetry
+869d5209afcdcc9b7be3fe222d47dbe43f3eb7fa,Workaround for Spring native monitoring bug (#48),code/spring-boot-telemetry/src/main/resources/native-image,44.0,Use system-uuid for id generation in Spring Boot,,corrective,Azure-Samples,java-native-telemetry
+bc49d3cfa80902dbef548b450311632883d754ff,Rename Quarkus app,code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/resources,42.0,Endpoint with exception to main,,preventive,Azure-Samples,java-native-telemetry
+4d2c15a9187f0302b48792c687b47f0569617c93,update hibernate,code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/resources,39.0,Use Hibernate for Spring Boot,,adaptive,Azure-Samples,java-native-telemetry
+24f06e91afd58210abd00e5ed2660e4eb4107410,change hibernate dll to update in spring app,code/spring-boot-telemetry/src/main/resources,41.0,Use Spring bean for rest template,,adaptive,Azure-Samples,java-native-telemetry
+917f9be9458c87c0cab80aef5134a814cd471758,change all IDs to String in Spring app like in Quarkus,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service,40.0,Ability to call Heroes from Spring Veggie,,perfective,Azure-Samples,java-native-telemetry
+2c78f88becdaa389469c6e7f1a0113f345b99e51,small bugfix,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/repository,,,,corrective,Azure-Samples,java-native-telemetry
+7d87bf9aa536361ba45349c34161eab4a312c6e5,"Merge pull request #44 from Azure-Samples/systemsystem-uui-spring-boot
+
+Use system-uuid for id generation in Spring Boot",code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/data code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry/src/test/java/com/azure/examples/springboot/controller,,,,perfective,Azure-Samples,java-native-telemetry
+8e2233b5a8c018348481ede63018a0e44c5a425d,Use system-uuid for id generation in Spring Boot,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/data code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry/src/test/java/com/azure/examples/springboot/controller,,,,perfective,Azure-Samples,java-native-telemetry
+1257b46a1e2a9a61b8c7d8aa2a474cb4186eb2f3,"Merge pull request #42 from brunobat/add-exception-endpoint
+
+Endpoint with exception to main",code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/resource code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/data code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/docker code/quarkus-telemetry/quarkus-telemetry-superhero/src/test/java/com/azure/examples/quarkus/superhero/message code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/docker code/quarkus-telemetry/quarkus-telemetry-vegetable,,,,additive,Azure-Samples,java-native-telemetry
+2005da9ba8be9f8c6ac89527aac33373aa5eddae,remove jdbc,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry,,,,adaptive,Azure-Samples,java-native-telemetry
+0e77d1adb72c125e377fc628ad35641a3e97b5b0,Endpoint with exception,code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/resource code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/data code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/docker code/quarkus-telemetry/quarkus-telemetry-superhero/src/test/java/com/azure/examples/quarkus/superhero/message code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/docker code/quarkus-telemetry/quarkus-telemetry-vegetable,,,,additive,Azure-Samples,java-native-telemetry
+695ca472dfae17f1c32f8fbcd1f004e1b296ac61,"Merge pull request #39 from Azure-Samples/use-hibernate-for-spring-boot
+
+Use Hibernate for Spring Boot",code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/repository code/spring-boot-telemetry/src/test/resources,,,,perfective,Azure-Samples,java-native-telemetry
+07cda42d7be2f5615158fadf657615cd74b9f4a2,Merge branch 'main' into use-hibernate-for-spring-boot,code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot code/spring-boot-telemetry/src/test/resources,,,,perfective,Azure-Samples,java-native-telemetry
+b221eb45ae5a44d2c65dee5d198aa10af4a78786,"Merge pull request #41 from Azure-Samples/spring-bean-resttemplate
+
+Use Spring bean for rest template",code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot,,,,perfective,Azure-Samples,java-native-telemetry
+f4f5a87e86b7ece9fcd5723d5bb30f659a9be04e,Use Spring bean for rest template,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot,,,,perfective,Azure-Samples,java-native-telemetry
+39e29312285909df267d9b7a6ee95b035e2046be,Downgrade hibernate,code/spring-boot-telemetry,,,,adaptive,Azure-Samples,java-native-telemetry
+4a8a7f64b6fe80662def8cf2e980e18f1b044262,"Merge pull request #40 from Azure-Samples/ability-to-call-quarkus-from-spring
+
+Ability to call Heroes from Spring Veggie",code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/test/resources,,,,perfective,Azure-Samples,java-native-telemetry
+58c087f65c7337846c318c7ea4ba4d7e65034f4c,"Update application.properties
+
+simplify",code/spring-boot-telemetry/src/main/resources,,,,preventive,Azure-Samples,java-native-telemetry
+e3d951786a0b662a2a7a47d197a35f004cfff457,Change property name,code/spring-boot-telemetry/src/test/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller,,,,preventive,Azure-Samples,java-native-telemetry
+ae9ba45a0668ffd5d9c28154d249c3a42187e44a,Change property name,code/spring-boot-telemetry/src/test/resources,,,,preventive,Azure-Samples,java-native-telemetry
+7ada6a74f0da320e48bfdc338107ba645f301877,Remove system out,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller,,,,preventive,Azure-Samples,java-native-telemetry
+91003d270a5dbea1946a95acd0db07a00bae1479,Ability to call Heroes from Spring Veggie,code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/test/resources,,,,perfective,Azure-Samples,java-native-telemetry
+af4ef8a91ce9be8093c038f57e233c939606aee7,Use Hibernate for Spring Boot,code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/repository code/spring-boot-telemetry/src/test/resources,,,,additive,Azure-Samples,java-native-telemetry
+601fe038796ed7ca9c18584a8977e3a9b32f2129,Update player version to 1.32.1,.,95.0,chore: release 1.31.0,"*Description of changes:*
+
+Updating SDK version to `1.31.0`
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+e9c313a27667a4fda8cc94ccd7263d3359702752,"Merge pull request #95 from aws-samples/release/1.31.0
+
+chore: release 1.31.0",samples/cloud-player samples/service-worker .,93.0,Player version 1.30.0,"*Issue #, if available:*
+
+*Description of changes:*
+
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+8abda523cf576687b94caa1cb57e81a3f68e0964,chore: release 1.31.0,samples/cloud-player samples/service-worker .,92.0,chore: release 1.29.0,"release 1.29.0
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+6206309bb8301868ae2cd5e09b381e494fdeb85f,"Merge pull request #93 from aws-samples/1.30.0
+
+Player version 1.30.0",samples/cloud-player samples/service-worker .,92.0,chore: release 1.29.0,"release 1.29.0
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+59d75a79b479e859b53946f37325788fa4a5c394,"Merge pull request #92 from aws-samples/release/1.29.0
+
+chore: release 1.29.0",samples/cloud-player samples/service-worker .,91.0,chore: release 1.28.0,"*Issue #, if available:*
+
+*Description of changes:*
+
+Updating to IVS SDK `1.28.0`
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+27f9de2cf32730be900c9fba5cb76b04b0dc3124,Audit fix,.,89.0,chore: release 1.26.0,"*Issue #, if available:*
+
+*Description of changes:*
+
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+38cbb1b836446ebfe578e4807427332566cb2fea,Update player version to 1.30.0,samples/cloud-player samples/service-worker .,88.0,chore: release 1.25.0,"*Issue #, if available:*
+
+*Description of changes:*
+
+Update IVS Player SDK to `1.25.0`
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+59d75a79b479e859b53946f37325788fa4a5c394,"Merge pull request #92 from aws-samples/release/1.29.0
+
+chore: release 1.29.0",samples/cloud-player samples/service-worker .,86.0,samples: add service worker example,"*Description of changes:*
+
+This adds an example of setting up and configuring a service worker for lower latency playback on iOS Safari.
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+2264647bf5d5e808bc0a05ff20c3019bb30737d4,chore:release 1.29.0,samples/cloud-player samples/service-worker .,85.0,chore: release 1.23.0,"
+
+Updating samples to use latest release
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+bce2a3ea8c4972683bdfc8bcc1bad36dbd6c3e68,"Merge pull request #91 from aws-samples/release/1.28.0
+
+chore: release 1.28.0",samples/cloud-player samples/service-worker .,82.0,chore: release 1.22.0,"*Description of changes:*
+
+updating sample to use latest release
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+8cc3740b0870e9536c597a61e8bd99bbaee82798,chore: release 1.28.0,samples/cloud-player samples/service-worker .,81.0,chore: release 1.21.0,"*Issue #, if available:*
+
+*Description of changes:*
+
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+689f8073ec03d4a113c0bed0bd09993817d4a2cb,Update to 1.27.0,samples/cloud-player samples/service-worker .,77.0,chore:release 1.19.0,"By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+b6e88128a48bf59a7084ab47723ded9201c18a4e,"Merge pull request #89 from aws-samples/release/1.26.0
+
+chore: release 1.26.0",samples/cloud-player samples/service-worker .,75.0,chore:release 1.18.0,"*Issue #, if available:*
+
+*Description of changes:*
+1.18.0 IVS Release
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+db7e472c257ff237cff0744fca625baa0d3bce8a,chore: release 1.26.0,samples/cloud-player samples/service-worker .,72.0,chore:release 1.16.0,"*Description of changes:*
+1.16.0 IVS Release
+
+By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+",adaptive,aws-samples,amazon-ivis-player-web-samples
+928eb56b48f5ce5ccb1dfcce5c3e813826f287ed,"Merge pull request #88 from aws-samples/release/1.25.0
+
+chore: release 1.25.0",samples/cloud-player samples/service-worker .,70.0,Bump json5 and babel-loader,"Bumps [json5](https://github.com/json5/json5) to 2.2.3 and updates ancestor dependency [babel-loader](https://github.com/babel/babel-loader). These dependencies need to be updated together.
+
+Updates `json5` from 2.2.0 to 2.2.3
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/json5/json5/releases"">json5's releases</a>.</em></p>
+<blockquote>
+<h2>v2.2.3</h2>
+<ul>
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of v1.0.2. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/299"">#299</a>)</li>
+</ul>
+<h2>v2.2.2</h2>
+<ul>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href=""https://github-redirect.dependabot.com/json5/json5/issues/199"">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/295"">#295</a>).</li>
+</ul>
+<h2>v2.2.1</h2>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/266"">#266</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/json5/json5/blob/main/CHANGELOG.md"">json5's changelog</a>.</em></p>
+<blockquote>
+<h3>v2.2.3 [<a href=""https://github.com/json5/json5/tree/v2.2.3"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.2.2...v2.2.3"">diff</a>]</h3>
+<ul>
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of
+v1.0.2. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/299"">#299</a>)</li>
+</ul>
+<h3>v2.2.2 [<a href=""https://github.com/json5/json5/tree/v2.2.2"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.2.1...v2.2.2"">diff</a>]</h3>
+<ul>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href=""https://github-redirect.dependabot.com/json5/json5/issues/199"">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/295"">#295</a>).</li>
+</ul>
+<h3>v2.2.1 [<a href=""https://github.com/json5/json5/tree/v2.2.1"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.2.0...v2.2.1"">diff</a>]</h3>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/266"">#266</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/json5/json5/commit/c3a75242772a5026a49c4017a16d9b3543b62776""><code>c3a7524</code></a> 2.2.3</li>
+<li><a href=""https://github.com/json5/json5/commit/94fd06d82eeed225fa172f6fb2ca27375cbd2e39""><code>94fd06d</code></a> docs: update CHANGELOG for v2.2.3</li>
+<li><a href=""https://github.com/json5/json5/commit/3b8cebf0c474a8b20c78bd75c89cca0c4dce84ce""><code>3b8cebf</code></a> docs(security): use GitHub security advisories</li>
+<li><a href=""https://github.com/json5/json5/commit/f0fd9e194dde282caff114a110f4fac635f3a62c""><code>f0fd9e1</code></a> docs: publish a security policy</li>
+<li><a href=""https://github.com/json5/json5/commit/6a91a05fffeda16ff6b3b5008b6b340d42d31ec0""><code>6a91a05</code></a> docs(template): bug -&gt; bug report</li>
+<li><a href=""https://github.com/json5/json5/commit/14f8cb186e8abdfaccf6527171da7b1224374650""><code>14f8cb1</code></a> 2.2.2</li>
+<li><a href=""https://github.com/json5/json5/commit/10cc7ca9169b59c5e0f5afc03dbd870cd06bcc46""><code>10cc7ca</code></a> docs: update CHANGELOG for v2.2.2</li>
+<li><a href=""https://github.com/json5/json5/commit/7774c1097993bc3ce9f0ac4b722a32bf7d6871c8""><code>7774c10</code></a> fix: add <strong>proto</strong> to objects and arrays</li>
+<li><a href=""https://github.com/json5/json5/commit/edde30abd8b22facf2c06c72586b9f6edf12700d""><code>edde30a</code></a> Readme: slight tweak to intro</li>
+<li><a href=""https://github.com/json5/json5/commit/97286f8bd542c89dcee096bc05dd28ed2dfc1e16""><code>97286f8</code></a> Improve example in readme</li>
+<li>Additional commits viewable in <a href=""https://github.com/json5/json5/compare/v2.2.0...v2.2.3"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `babel-loader` from 8.2.3 to 8.3.0
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/babel/babel-loader/releases"">babel-loader's releases</a>.</em></p>
+<blockquote>
+<h2>v8.3.0</h2>
+<h2>New features</h2>
+<ul>
+<li>Pass external dependencies from Babel to Webpack by <a href=""https://github.com/nicolo-ribaudo""><code>@​nicolo-ribaudo</code></a> in <a href=""https://github-redirect.dependabot.com/babel/babel-loader/pull/971"">babel/babel-loader#971</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/babel/babel-loader/compare/v8.2.5...v8.3.0"">https://github.com/babel/babel-loader/compare/v8.2.5...v8.3.0</a></p>
+<h2>v8.2.5</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix: respect <code>inputSourceMap</code> loader option by <a href=""https://github.com/alan-agius4""><code>@​alan-agius4</code></a> in <a href=""https://github-redirect.dependabot.com/babel/babel-loader/pull/896"">babel/babel-loader#896</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/alan-agius4""><code>@​alan-agius4</code></a> made their first contribution in <a href=""https://github-redirect.dependabot.com/babel/babel-loader/pull/896"">babel/babel-loader#896</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/babel/babel-loader/compare/v8.2.4...v8.2.5"">https://github.com/babel/babel-loader/compare/v8.2.4...v8.2.5</a></p>
+<h2>v8.2.4</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>doc(README.md): fix a broken markdown link by <a href=""https://github.com/loveDstyle""><code>@​loveDstyle</code></a> in <a href=""https://github-redirect.dependabot.com/babel/babel-loader/pull/919"">babel/babel-loader#919</a></li>
+<li>Bump loader-utils to 2.x by <a href=""https://github.com/stianjensen""><code>@​stianjensen</code></a> in <a href=""https://github-redirect.dependabot.com/babel/babel-loader/pull/931"">babel/babel-loader#931</a></li>
+<li>Use md5 hashing for OpenSSL 3 by <a href=""https://github.com/pathmapper""><code>@​pathmapper</code></a> in <a href=""https://github-redirect.dependabot.com/babel/babel-loader/pull/924"">babel/babel-loader#924</a></li>
+</ul>
+<p>Thanks <a href=""https://github.com/loveDstyle""><code>@​loveDstyle</code></a>, <a href=""https://github.com/stianjensen""><code>@​stianjensen</code></a> and <a href=""https://github.com/pathmapper""><code>@​pathmapper</code></a> for your first PRs!</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/babel/babel-loader/commit/9bf5652c3b718971382c110c4b7f86212aa8cb52""><code>9bf5652</code></a> 8.3.0</li>
+<li><a href=""https://github.com/babel/babel-loader/commit/80ab7d013b1c2142516d9939c978cba82648c052""><code>80ab7d0</code></a> Update <code>@babel/</code> dependencies</li>
+<li><a href=""https://github.com/babel/babel-loader/commit/493ac6cfdb2763568b42e787b95ac3a05ebfd15b""><code>493ac6c</code></a> Pass external dependencies from Babel to Webpack (<a href=""https://github-redirect.dependabot.com/babel/babel-loader/issues/971"">#971</a>)</li>
+<li><a href=""https://github.com/babel/babel-loader/commit/df28fe312abba66cf72320e23268ad208fdf5006""><code>df28fe3</code></a> Fix broken main test (<a href=""https://github-redirect.dependabot.com/babel/babel-loader/issues/950"">#950</a>)</li>
+<li><a href=""https://github.com/babel/babel-loader/commit/0b338e4abb4e7c22a09c2cee39b1b1664226ecaf""><code>0b338e4</code></a> update hash method so it doesn't fail on a fips enabled machine (<a href=""https://github-redirect.dependabot.com/babel/babel-loader/issues/939"">#939</a>)</li>
+<li><a href=""https://github.com/babel/babel-loader/commit/1f98d3c7978a729becb2f27b42c44f4ac37fce83""><code>1f98d3c</code></a> 8.2.5</li>
+<li><a href=""https://github.com/babel/babel-loader/commit/c622868020a07cc4d632bb51afb3db1f4edaaae2""><code>c622868</code></a> fix: respect <code>inputSourceMap</code> loader option (<a href=""https://github-redirect.dependabot.com/babel/babel-loader/issues/896"">#896</a>)</li>
+<li><a href=""https://github.com/babel/babel-loader/commit/f7982c1a7ee34f25ce73cc4fd5771fca475b4447""><code>f7982c1</code></a> 8.2.4</li>
+<li><a href=""https://github.com/babel/babel-loader/commit/4bb9e21a36fa581c045121031717b90b5a77ef16""><code>4bb9e21</code></a> Use md5 hashing for OpenSSL 3 (<a href=""https://github-redirect.dependabot.com/babel/babel-loader/issues/924"">#924</a>)</li>
+<li><a href=""https://github.com/babel/babel-loader/commit/247c94ba90cd7311b17e18dea68349c727c28b6c""><code>247c94b</code></a> Bump loader-utils to 2.x (<a href=""https://github-redirect.dependabot.com/babel/babel-loader/issues/931"">#931</a>)</li>
+<li>Additional commits viewable in <a href=""https://github.com/babel/babel-loader/compare/v8.2.3...v8.3.0"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/aws-samples/amazon-ivs-player-web-sample/network/alerts).
+
+</details>",adaptive,aws-samples,amazon-ivis-player-web-samples
+a488a3be4857f2fd5095129a5c7024fd8349e8c3,chore: release 1.25.0,samples/cloud-player samples/service-worker .,69.0,Bump express from 4.17.2 to 4.18.2,"Bumps [express](https://github.com/expressjs/express) from 4.17.2 to 4.18.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/expressjs/express/releases"">express's releases</a>.</em></p>
+<blockquote>
+<h2>4.18.2</h2>
+<ul>
+<li>Fix regression routing a large stack in a single route</li>
+<li>deps: body-parser@1.20.1
+<ul>
+<li>deps: qs@6.11.0</li>
+<li>perf: remove unnecessary object clone</li>
+</ul>
+</li>
+<li>deps: qs@6.11.0</li>
+</ul>
+<h2>4.18.1</h2>
+<ul>
+<li>Fix hanging on large stack of sync routes</li>
+</ul>
+<h2>4.18.0</h2>
+<ul>
+<li>Add &quot;root&quot; option to <code>res.download</code></li>
+<li>Allow <code>options</code> without <code>filename</code> in <code>res.download</code></li>
+<li>Deprecate string and non-integer arguments to <code>res.status</code></li>
+<li>Fix behavior of <code>null</code>/<code>undefined</code> as <code>maxAge</code> in <code>res.cookie</code></li>
+<li>Fix handling very large stacks of sync middleware</li>
+<li>Ignore <code>Object.prototype</code> values in settings through <code>app.set</code>/<code>app.get</code></li>
+<li>Invoke <code>default</code> with same arguments as types in <code>res.format</code></li>
+<li>Support proper 205 responses using <code>res.send</code></li>
+<li>Use <code>http-errors</code> for <code>res.format</code> error</li>
+<li>deps: body-parser@1.20.0
+<ul>
+<li>Fix error message for json parse whitespace in <code>strict</code></li>
+<li>Fix internal error when inflated body exceeds limit</li>
+<li>Prevent loss of async hooks context</li>
+<li>Prevent hanging when request already read</li>
+<li>deps: depd@2.0.0</li>
+<li>deps: http-errors@2.0.0</li>
+<li>deps: on-finished@2.4.1</li>
+<li>deps: qs@6.10.3</li>
+<li>deps: raw-body@2.5.1</li>
+</ul>
+</li>
+<li>deps: cookie@0.5.0
+<ul>
+<li>Add <code>priority</code> option</li>
+<li>Fix <code>expires</code> option to reject invalid dates</li>
+</ul>
+</li>
+<li>deps: depd@2.0.0
+<ul>
+<li>Replace internal <code>eval</code> usage with <code>Function</code> constructor</li>
+<li>Use instance methods on <code>process</code> to check for listeners</li>
+</ul>
+</li>
+<li>deps: finalhandler@1.2.0
+<ul>
+<li>Remove set content headers that break response</li>
+<li>deps: on-finished@2.4.1</li>
+<li>deps: statuses@2.0.1</li>
+</ul>
+</li>
+<li>deps: on-finished@2.4.1
+<ul>
+<li>Prevent loss of async hooks context</li>
+</ul>
+</li>
+<li>deps: qs@6.10.3</li>
+<li>deps: send@0.18.0
+<ul>
+<li>Fix emitted 416 error missing headers property</li>
+<li>Limit the headers removed for 304 response</li>
+<li>deps: depd@2.0.0</li>
+<li>deps: destroy@1.2.0</li>
+<li>deps: http-errors@2.0.0</li>
+<li>deps: on-finished@2.4.1</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/expressjs/express/blob/master/History.md"">express's changelog</a>.</em></p>
+<blockquote>
+<h1>4.18.2 / 2022-10-08</h1>
+<ul>
+<li>Fix regression routing a large stack in a single route</li>
+<li>deps: body-parser@1.20.1
+<ul>
+<li>deps: qs@6.11.0</li>
+<li>perf: remove unnecessary object clone</li>
+</ul>
+</li>
+<li>deps: qs@6.11.0</li>
+</ul>
+<h1>4.18.1 / 2022-04-29</h1>
+<ul>
+<li>Fix hanging on large stack of sync routes</li>
+</ul>
+<h1>4.18.0 / 2022-04-25</h1>
+<ul>
+<li>Add &quot;root&quot; option to <code>res.download</code></li>
+<li>Allow <code>options</code> without <code>filename</code> in <code>res.download</code></li>
+<li>Deprecate string and non-integer arguments to <code>res.status</code></li>
+<li>Fix behavior of <code>null</code>/<code>undefined</code> as <code>maxAge</code> in <code>res.cookie</code></li>
+<li>Fix handling very large stacks of sync middleware</li>
+<li>Ignore <code>Object.prototype</code> values in settings through <code>app.set</code>/<code>app.get</code></li>
+<li>Invoke <code>default</code> with same arguments as types in <code>res.format</code></li>
+<li>Support proper 205 responses using <code>res.send</code></li>
+<li>Use <code>http-errors</code> for <code>res.format</code> error</li>
+<li>deps: body-parser@1.20.0
+<ul>
+<li>Fix error message for json parse whitespace in <code>strict</code></li>
+<li>Fix internal error when inflated body exceeds limit</li>
+<li>Prevent loss of async hooks context</li>
+<li>Prevent hanging when request already read</li>
+<li>deps: depd@2.0.0</li>
+<li>deps: http-errors@2.0.0</li>
+<li>deps: on-finished@2.4.1</li>
+<li>deps: qs@6.10.3</li>
+<li>deps: raw-body@2.5.1</li>
+</ul>
+</li>
+<li>deps: cookie@0.5.0
+<ul>
+<li>Add <code>priority</code> option</li>
+<li>Fix <code>expires</code> option to reject invalid dates</li>
+</ul>
+</li>
+<li>deps: depd@2.0.0
+<ul>
+<li>Replace internal <code>eval</code> usage with <code>Function</code> constructor</li>
+<li>Use instance methods on <code>process</code> to check for listeners</li>
+</ul>
+</li>
+<li>deps: finalhandler@1.2.0
+<ul>
+<li>Remove set content headers that break response</li>
+<li>deps: on-finished@2.4.1</li>
+<li>deps: statuses@2.0.1</li>
+</ul>
+</li>
+<li>deps: on-finished@2.4.1
+<ul>
+<li>Prevent loss of async hooks context</li>
+</ul>
+</li>
+<li>deps: qs@6.10.3</li>
+<li>deps: send@0.18.0</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/expressjs/express/commit/8368dc178af16b91b576c4c1d135f701a0007e5d""><code>8368dc1</code></a> 4.18.2</li>
+<li><a href=""https://github.com/expressjs/express/commit/61f40491222dbede653b9938e6a4676f187aab44""><code>61f4049</code></a> docs: replace Freenode with Libera Chat</li>
+<li><a href=""https://github.com/expressjs/express/commit/bb7907b932afe3a19236a642f6054b6c8f7349a0""><code>bb7907b</code></a> build: Node.js@18.10</li>
+<li><a href=""https://github.com/expressjs/express/commit/f56ce73186e885a938bfdb3d3d1005a58e6ae12b""><code>f56ce73</code></a> build: supertest@6.3.0</li>
+<li><a href=""https://github.com/expressjs/express/commit/24b3dc551670ac4fb0cd5a2bd5ef643c9525e60f""><code>24b3dc5</code></a> deps: qs@6.11.0</li>
+<li><a href=""https://github.com/expressjs/express/commit/689d175b8b39d8860b81d723233fb83d15201827""><code>689d175</code></a> deps: body-parser@1.20.1</li>
+<li><a href=""https://github.com/expressjs/express/commit/340be0f79afb9b3176afb76235aa7f92acbd5050""><code>340be0f</code></a> build: eslint@8.24.0</li>
+<li><a href=""https://github.com/expressjs/express/commit/33e8dc303af9277f8a7e4f46abfdcb5e72f6797b""><code>33e8dc3</code></a> docs: use Node.js name style</li>
+<li><a href=""https://github.com/expressjs/express/commit/644f6464b9f61cbafa8f880636b1aa5237d95bad""><code>644f646</code></a> build: supertest@6.2.4</li>
+<li><a href=""https://github.com/expressjs/express/commit/ecd7572f1e920b7a512452b8d9806ae617a99c54""><code>ecd7572</code></a> build: Node.js@14.20</li>
+<li>Additional commits viewable in <a href=""https://github.com/expressjs/express/compare/4.17.2...4.18.2"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=express&package-manager=npm_and_yarn&previous-version=4.17.2&new-version=4.18.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/aws-samples/amazon-ivs-player-web-sample/network/alerts).
+
+</details>",adaptive,aws-samples,amazon-ivis-player-web-samples
+c300df27c420c0a42245a33e455c181969aaa161,Update service worker example to 1.24.0,samples/service-worker,66.0,Bump @xmldom/xmldom from 0.7.6 to 0.7.9,"Bumps [@xmldom/xmldom](https://github.com/xmldom/xmldom) from 0.7.6 to 0.7.9.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/xmldom/xmldom/releases""><code>@​xmldom/xmldom</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>0.7.9</h2>
+<p><a href=""https://github.com/xmldom/xmldom/compare/0.7.8...0.7.9"">Commits</a></p>
+<h3>Fixed</h3>
+<ul>
+<li>Properly check nodes before replacement <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/pull/457""><code>[#457](https://github.com/xmldom/xmldom/issues/457)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/455""><code>[#455](https://github.com/xmldom/xmldom/issues/455)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/456""><code>[#456](https://github.com/xmldom/xmldom/issues/456)</code></a></li>
+</ul>
+<p>Thank you, <a href=""https://github.com/edemaine""><code>@​edemaine</code></a>, <a href=""https://github.com/pedro-l9""><code>@​pedro-l9</code></a>, for your contributions</p>
+<h2>0.7.8</h2>
+<p><a href=""https://github.com/xmldom/xmldom/compare/0.7.7...0.7.8"">Commits</a></p>
+<h3>Fixed</h3>
+<ul>
+<li>fix: Restore ES5 compatibility <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/pull/452""><code>[#452](https://github.com/xmldom/xmldom/issues/452)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/453""><code>[#453](https://github.com/xmldom/xmldom/issues/453)</code></a></li>
+</ul>
+<p>Thank you, <a href=""https://github.com/fengxinming""><code>@​fengxinming</code></a>, for your contributions</p>
+<h2>0.7.7</h2>
+<p><a href=""https://github.com/xmldom/xmldom/compare/0.7.6...0.7.7"">Commits</a></p>
+<h3>Fixed</h3>
+<ul>
+<li>Security: Prevent inserting DOM nodes when they are not well-formed <a href=""https://github.com/xmldom/xmldom/security/advisories/GHSA-crh6-fp67-6883""><code>CVE-2022-39353</code></a>
+In case such a DOM would be created, the part that is not well-formed will be transformed into text nodes, in which xml specific characters like <code>&lt;</code> and <code>&gt;</code> are encoded accordingly.
+In the upcoming version 0.9.0 those text nodes will no longer be added and an error will be thrown instead.
+This change can break your code, if you relied on this behavior, e.g. multiple root elements in the past. We consider it more important to align with the specs that we want to be aligned with, considering the potential security issues that might derive from people not being aware of the difference in behavior.
+Related Spec: <a href=""https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity"">https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity</a></li>
+</ul>
+<p>Thank you, <a href=""https://github.com/frumioj""><code>@​frumioj</code></a>, <a href=""https://github.com/cjbarth""><code>@​cjbarth</code></a>, <a href=""https://github.com/markgollnick""><code>@​markgollnick</code></a> for your contributions</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/xmldom/xmldom/blob/master/CHANGELOG.md""><code>@​xmldom/xmldom</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2><a href=""https://github.com/xmldom/xmldom/compare/0.7.8...0.7.9"">0.7.9</a></h2>
+<h3>Fixed</h3>
+<ul>
+<li>Properly check nodes before replacement <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/pull/457""><code>[#457](https://github.com/xmldom/xmldom/issues/457)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/455""><code>[#455](https://github.com/xmldom/xmldom/issues/455)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/456""><code>[#456](https://github.com/xmldom/xmldom/issues/456)</code></a></li>
+</ul>
+<p>Thank you, <a href=""https://github.com/edemaine""><code>@​edemaine</code></a>, <a href=""https://github.com/pedro-l9""><code>@​pedro-l9</code></a>, for your contributions</p>
+<h2><a href=""https://github.com/xmldom/xmldom/compare/0.9.0-beta.5...0.9.0-beta.6"">0.9.0-beta.6</a></h2>
+<h3>Fixed</h3>
+<ul>
+<li>Properly check nodes before replacement <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/pull/457""><code>[#457](https://github.com/xmldom/xmldom/issues/457)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/455""><code>[#455](https://github.com/xmldom/xmldom/issues/455)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/456""><code>[#456](https://github.com/xmldom/xmldom/issues/456)</code></a></li>
+</ul>
+<p>Thank you, <a href=""https://github.com/edemaine""><code>@​edemaine</code></a>, <a href=""https://github.com/pedro-l9""><code>@​pedro-l9</code></a>, for your contributions</p>
+<h2><a href=""https://github.com/xmldom/xmldom/compare/0.9.0-beta.4...0.9.0-beta.5"">0.9.0-beta.5</a></h2>
+<h3>Fixed</h3>
+<ul>
+<li>fix: Restore ES5 compatibility <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/pull/452""><code>[#452](https://github.com/xmldom/xmldom/issues/452)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/453""><code>[#453](https://github.com/xmldom/xmldom/issues/453)</code></a></li>
+</ul>
+<p>Thank you, <a href=""https://github.com/fengxinming""><code>@​fengxinming</code></a>, for your contributions</p>
+<h2><a href=""https://github.com/xmldom/xmldom/compare/0.8.4...0.8.5"">0.8.5</a></h2>
+<h3>Fixed</h3>
+<ul>
+<li>fix: Restore ES5 compatibility <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/pull/452""><code>[#452](https://github.com/xmldom/xmldom/issues/452)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/453""><code>[#453](https://github.com/xmldom/xmldom/issues/453)</code></a></li>
+</ul>
+<p>Thank you, <a href=""https://github.com/fengxinming""><code>@​fengxinming</code></a>, for your contributions</p>
+<h2><a href=""https://github.com/xmldom/xmldom/compare/0.7.7...0.7.8"">0.7.8</a></h2>
+<h3>Fixed</h3>
+<ul>
+<li>fix: Restore ES5 compatibility <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/pull/452""><code>[#452](https://github.com/xmldom/xmldom/issues/452)</code></a> / <a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/453""><code>[#453](https://github.com/xmldom/xmldom/issues/453)</code></a></li>
+</ul>
+<p>Thank you, <a href=""https://github.com/fengxinming""><code>@​fengxinming</code></a>, for your contributions</p>
+<h2><a href=""https://github.com/xmldom/xmldom/compare/0.9.0-beta.3...0.9.0-beta.4"">0.9.0-beta.4</a></h2>
+<h3>Fixed</h3>
+<ul>
+<li>Security: Prevent inserting DOM nodes when they are not well-formed <a href=""https://github.com/xmldom/xmldom/security/advisories/GHSA-crh6-fp67-6883""><code>CVE-2022-39353</code></a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/xmldom/xmldom/commit/927392f627e8f9cf1ea051612c7996596a904c78""><code>927392f</code></a> 0.7.9</li>
+<li><a href=""https://github.com/xmldom/xmldom/commit/99cfe62576e563234b928db9305290dfb3a96c03""><code>99cfe62</code></a> fix: Properly check nodes before replacement (<a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/457"">#457</a>)</li>
+<li><a href=""https://github.com/xmldom/xmldom/commit/a627fbcd8b75304abe9142ca963c25ca773685d7""><code>a627fbc</code></a> chore: Preconfigure &quot;patch&quot; version in release script</li>
+<li><a href=""https://github.com/xmldom/xmldom/commit/0d6e3a132ec6eb32a67cfca327477a2098d4b55c""><code>0d6e3a1</code></a> 0.7.8</li>
+<li><a href=""https://github.com/xmldom/xmldom/commit/74e25a6763cc6afd0100b82b137f78af649741f8""><code>74e25a6</code></a> fix: Restore ES5 compatibility (<a href=""https://github-redirect.dependabot.com/xmldom/xmldom/issues/452"">#452</a>)</li>
+<li><a href=""https://github.com/xmldom/xmldom/commit/fe5b043fd07bbfed7f039b77d0b9e1a1eb832a2a""><code>fe5b043</code></a> 0.7.7</li>
+<li><a href=""https://github.com/xmldom/xmldom/commit/8a3173dc3bb7edb8619e914b8a2d366cc7cc8401""><code>8a3173d</code></a> docs: Prepare CHANGELOG for 0.7.7</li>
+<li><a href=""https://github.com/xmldom/xmldom/commit/c02f786216bed70825f9a351c65e61500f51e931""><code>c02f786</code></a> Merge pull request from GHSA-crh6-fp67-6883</li>
+<li>See full diff in <a href=""https://github.com/xmldom/xmldom/compare/0.7.6...0.7.9"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@xmldom/xmldom&package-manager=npm_and_yarn&previous-version=0.7.6&new-version=0.7.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/aws-samples/amazon-ivs-player-web-sample/network/alerts).
+
+</details>",adaptive,aws-samples,amazon-ivis-player-web-samples
+6aede54831b8027375070681feb88870da8b5981,Update SDK to 1.24.0,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+f2e48ab61a34163d613634c7e1106c20a06fc5fb,"Merge pull request #86 from aws-samples/task/service-worker-example
+
+samples: add service worker example",samples/service-worker samples .,,,,additive,aws-samples,amazon-ivis-player-web-samples
+3779119f546013508a17aa37cfdb77e332c39962,samples: add service worker example,samples/service-worker samples .,,,,additive,aws-samples,amazon-ivis-player-web-samples
+6e3014b80425b85796f0e7076c9813fbbb6bf4fc,"Merge pull request #85 from aws-samples/release/1.23.0
+
+chore: release 1.23.0",samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+e0bc56d151d51d9f59ee27ad299d3e35e57dda19,"Merge pull request #82 from aws-samples/release/1.22.0
+
+chore: release 1.22.0",samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+1f43fe1b4d557db1b3c1094a03dd129dd99624fd,chore: release 1.22.0,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+a93de59ca830dcf21ee9664bb248972ad7d93d49,"Merge pull request #81 from aws-samples/release/1.21.0
+
+chore: release 1.21.0",samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+75a50e043cf5a80a68be70bf7b1a40f31be3a4dd,chore: release 1.21.0,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+7cfd6886c7bc67aa07d42aebabf5a8a89bc54c7d,Update cloud player to 1.20.0,samples/cloud-player,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+52bcd8612a81c96ebcb9b72e5b0355928b4b82f5,Update amazon-ivs-player to 1.20.0,.,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+34c7f111965835668a34e3e0a1f76f709eb9ab22,"Merge pull request #77 from aws-samples/release/1.19.0
+
+chore:release 1.19.0",samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+cf91df9ac1d356f28ec37d9951579432d1e8c216,chore:release 1.19.0,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+e31cd45c908baea8dff2df2f60225b18d924b8a2,chore:release 1.18.0,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+d5e2b07ba3c471bb2446b83e3e6a9fd2a8dc5f60,chore:release 1.18.0,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+b35f4b96d5f0bc48b32f3f5e1c450a7e0aa65fbe,Fix bad merge,samples/cloud-player .,,,,corrective,aws-samples,amazon-ivis-player-web-samples
+6e1730959326303be55c3b7577fb628e2759c991,Merge branch 'master' of https://github.com/aws-samples/amazon-ivs-player-web-sample,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+c1591044519ec91737b9613b210bff97e3681001,Bump SDK version to 1.17.0,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+d109e540d51bf36c3eb7a4b3779265a42f027aed,"Merge pull request #72 from aws-samples/release/1.16.0
+
+chore:release 1.16.0",samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+7a16bfbdb5ff7adab653afda613841d425b07371,chore:release 1.16.0,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+9996d69958f66b7987046dbc23fe522fa7936d22,"Merge pull request #70 from aws-samples/dependabot/npm_and_yarn/json5-and-babel-loader-2.2.3
+
+Bump json5 and babel-loader",.,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+7dbaa349a43fceb936fb16dc12ea480aa236c9bc,"Merge pull request #69 from aws-samples/dependabot/npm_and_yarn/express-4.18.2
+
+Bump express from 4.17.2 to 4.18.2",.,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+31e81b3e2cb37fdf6d9ce2ea35d0d5eb2d83e367,"Bump json5 and babel-loader
+
+Bumps [json5](https://github.com/json5/json5) to 2.2.3 and updates ancestor dependency [babel-loader](https://github.com/babel/babel-loader). These dependencies need to be updated together.
+
+
+Updates `json5` from 2.2.0 to 2.2.3
+- [Release notes](https://github.com/json5/json5/releases)
+- [Changelog](https://github.com/json5/json5/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/json5/json5/compare/v2.2.0...v2.2.3)
+
+Updates `babel-loader` from 8.2.3 to 8.3.0
+- [Release notes](https://github.com/babel/babel-loader/releases)
+- [Changelog](https://github.com/babel/babel-loader/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel-loader/compare/v8.2.3...v8.3.0)
+
+---
+updated-dependencies:
+- dependency-name: json5
+  dependency-type: indirect
+- dependency-name: babel-loader
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",.,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+54214f445696ff2347751963556e7f949eab1ec4,"Bump express from 4.17.2 to 4.18.2
+
+Bumps [express](https://github.com/expressjs/express) from 4.17.2 to 4.18.2.
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/master/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.17.2...4.18.2)
+
+---
+updated-dependencies:
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",.,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
+4329fe88ae5edcbdbc91521b6066e4562c544d2f,"Merge pull request #66 from aws-samples/dependabot/npm_and_yarn/xmldom/xmldom-0.7.9
+
+Bump @xmldom/xmldom from 0.7.6 to 0.7.9",.,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
