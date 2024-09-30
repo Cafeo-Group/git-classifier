@@ -14,7 +14,7 @@ Fixes #64",adaptive,spring-guides,gs-accessing-data-jpa
 2019310a8a7c9e47e6bbdb4ea0f0d2e9dbbbe695,Update CI to use a shared build,.github/workflows,59.0,Update to Spring Boot 2.6.3,,adaptive,spring-guides,gs-accessing-data-jpa
 8e9d4a49a1d396451a56175d00f7b15e97b03414,"Upgrade Spring Boot to 3.3.0.
 
-Had to upgrade the Gradle wrapper, too.",complete/gradle/wrapper initial initial/gradle/wrapper complete,54.0,Version update,"Updated the Spring Boot version and the Gradle and Maven wrappers.
+Had to upgrade the Gradle wrapper, too.",initial initial/gradle/wrapper complete/gradle/wrapper complete,54.0,Version update,"Updated the Spring Boot version and the Gradle and Maven wrappers.
 
 Also removed the Initializr image and updated the README to match.",adaptive,spring-guides,gs-accessing-data-jpa
 09c804f7d67f9e4d68e0a4e67cde308a926b1387,Remove Jenkinsfile since we now have a GitHub action.,.,55.0,Removed duplicate block and fixed wrong method,,preventive,spring-guides,gs-accessing-data-jpa
@@ -40,11 +40,11 @@ to get the build to work on the server.",.,,,,adaptive,spring-guides,gs-accessin
 4a9fd52f8dc4b4ada52613476a8338d088931634,Upgrade Jenkins to Java 17,.,,,,adaptive,spring-guides,gs-accessing-data-jpa
 80ffc79a2e6955123b9cc264a2debbd00db28949,"Upgrade to Spring Boot 3.0.0
 
-including changing javax.persistence to jakarta.persistence.",initial complete/src/main/java/com/example/accessingdatajpa complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+including changing javax.persistence to jakarta.persistence.",initial complete complete/src/main/java/com/example/accessingdatajpa,,,,adaptive,spring-guides,gs-accessing-data-jpa
 e06d8cf55401e32222f4cebcda12bd71ccc68fd4,Set Java version to 1.8,initial complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
 eef3f709242c2aabd64bf82d3f4ecb04cee6c45e,"Upgrade Boot and Gradle versions
 
-to 2.7.0 and 7.4.2, respectively.",complete/gradle/wrapper initial initial/gradle/wrapper complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+to 2.7.0 and 7.4.2, respectively.",initial initial/gradle/wrapper complete/gradle/wrapper complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
 7f3f43782b8b30c5d6bcf725ebd4687875f5fbac,Update to Spring Boot 2.6.3,initial complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
 a4905daf9584ea0731b559be9934b20aa9b5a085,"Add pre-populated Initializr link
 
@@ -52,7 +52,7 @@ to fill in the project settings, as a convenience.",.,,,,additive,spring-guides,
 6148e3ec29278f8c7765cbfe2d79a1d500a99b1b,"Update to Boot 2.5.2
 
 Boot 2.5.2 required a newer version of Gradle, too, so I updated it
-to the current version (7.1 as of this writing).",complete/gradle/wrapper initial initial/gradle/wrapper complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+to the current version (7.1 as of this writing).",initial initial/gradle/wrapper complete/gradle/wrapper complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
 c149d117edeb4a116f2caae755e49803b8132a30,Migrate to maven wrapper.,test,,,,adaptive,spring-guides,gs-accessing-data-jpa
 2768e34ff60deab99483b9c6ef8fb8165d820aec,Migrate to Jenkins for CI.,.,,,,adaptive,spring-guides,gs-accessing-data-jpa
 159dbe49fd91ba7e3f0cff437c98edcb5298b419,Migrate to Jenkins for CI.,.,,,,adaptive,spring-guides,gs-accessing-data-jpa
@@ -78,7 +78,7 @@ b3677c40156e05ae45d734b873f49b52b50dbdab,"Version update
 
 Updated the Spring Boot, Gradle, and Maven versions.
 
-Also removed the Initializr image and updated the README to match.",initial/.mvn/wrapper initial/gradle/wrapper . initial complete/.mvn/wrapper complete/gradle/wrapper images complete,,,,adaptive,spring-guides,gs-accessing-data-jpa
+Also removed the Initializr image and updated the README to match.",initial initial/.mvn/wrapper . initial/gradle/wrapper complete complete/.mvn/wrapper complete/gradle/wrapper images,,,,adaptive,spring-guides,gs-accessing-data-jpa
 b3af19a0513c86cf9f36db753705bd5807352423,"replace findOne() with findById(), addresses issue #52",.,,,,corrective,spring-guides,gs-accessing-data-jpa
 071d91f0efd57655e90671426050d5c3c8f85ac1,"removed duplicate block, addresses issue #53",.,,,,preventive,spring-guides,gs-accessing-data-jpa
 1dae7f2a673289c4dfe38288599e9e470e26a75b,"Resolve java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException: javax.xml.bind.JAXBException
@@ -179,7 +179,7 @@ Minor cleanup to web/script.js, web/index.html and comments to src/re…",src we
 d38ed023f1ac0b0c9d425973232c534b6eb65235,"Minor cleanup to web/script.js, web/index.html and comments to src/register-new-subscriber.js",src web,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
 a9ae45aa93e52cc88737570fb82221c68ba99e07,"Merge pull request #77 from aws-samples/regionalization-enhancements
 
-Regionalization enhancements",web . misc src src/lambda-edge,,,,perfective,aws-samples,aws-marketplace-serverless-saas-integration
+Regionalization enhancements",web . src/lambda-edge src misc,,,,perfective,aws-samples,aws-marketplace-serverless-saas-integration
 1d67a159a79ea253af44d60cd5f3d13b908a156f,"Update redirect.js
 
 Removed reference to the unused env variable",src,,,,preventive,aws-samples,aws-marketplace-serverless-saas-integration
@@ -201,16 +201,16 @@ d8d1ae2adc20519dd36391effb14c18caa6acba3,fixed numbering,.,,,,preventive,aws-sam
 cf5fe843c8debeaec7051a275e3f49188076ae4d,"Merge pull request #75 from lenopip/deployment-improvements
 
 Deployment improvements",src web .,,,,adaptive,aws-samples,aws-marketplace-serverless-saas-integration
-14931eec3bc45758c59e7503762912fb779a1ecb,update .devcontainer file (#68),docs/assets code/quarkus-telemetry .devcontainer .,68.0,update .devcontainer file,"#67
+14931eec3bc45758c59e7503762912fb779a1ecb,update .devcontainer file (#68),docs/assets code/quarkus-telemetry . .devcontainer,68.0,update .devcontainer file,"#67
 
 update .devcontainer.json and add docs",adaptive,Azure-Samples,java-native-telemetry
 f6cd41700c9da44a74abfd1703369673740024bd,Update VeggieController.java (#70),code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller,70.0,Type mismatch in VeggieController.java,"There is a type mismatch in VeggieController.java.
 The field ""id"" is defined with String in Veggie.java, while a parameter in methods ""deleteVeggie"" and ""getVeggieById"" is defined with Long. If this mismatch is not fixed, both methods always return 400 (Bad request).",perfective,Azure-Samples,java-native-telemetry
-7521a568bc7a62717c43b2540aeefa6b2fab5667,Bump quarkus-opentelemetry-exporter-azure (#69),code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-vegetable,69.0,Bump quarkus-opentelemetry-exporter-azure,Fix this issue: https://github.com/Azure/azure-sdk-for-java/issues/41040,adaptive,Azure-Samples,java-native-telemetry
+7521a568bc7a62717c43b2540aeefa6b2fab5667,Bump quarkus-opentelemetry-exporter-azure (#69),code/quarkus-telemetry/quarkus-telemetry-vegetable code/quarkus-telemetry/quarkus-telemetry-superhero,69.0,Bump quarkus-opentelemetry-exporter-azure,Fix this issue: https://github.com/Azure/azure-sdk-for-java/issues/41040,adaptive,Azure-Samples,java-native-telemetry
 37c58f2314e2236557944f71e44f172b170f9f3f,Remove workaround for Spring native (#62),code/spring-boot-telemetry/src/main/resources/META-INF/native-image code/spring-boot-telemetry/src/main/resources/native-image,62.0,Remove workaround for Spring native, Bug fixed with https://github.com/Azure-Samples/java-native-telemetry/pull/61 (see https://github.com/Azure/azure-sdk-for-java/pull/40151).,perfective,Azure-Samples,java-native-telemetry
 d9fcd99520f9af723ac59e40c13bcf8d0cb7a208,Bump Spring telemetry dependency (#61),code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry,61.0,Bump Spring telemetry dependency,,adaptive,Azure-Samples,java-native-telemetry
-9b8e68afbdc409b7711b4c6afdae787841f49dbe,bump to quarkus 3.11.2 (#59),code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-vegetable code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/java/com/azure/examples/quarkus/client,59.0,Bump to Quarkus 3.11.2,,adaptive,Azure-Samples,java-native-telemetry
-b12e2b0787acf9ca66d1596955313b08937598a8,Add missing dependencies (#56),code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-vegetable code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/resources,56.0,Add missing dependencies,,adaptive,Azure-Samples,java-native-telemetry
+9b8e68afbdc409b7711b4c6afdae787841f49dbe,bump to quarkus 3.11.2 (#59),code/quarkus-telemetry/quarkus-telemetry-vegetable code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/java/com/azure/examples/quarkus/client,59.0,Bump to Quarkus 3.11.2,,adaptive,Azure-Samples,java-native-telemetry
+b12e2b0787acf9ca66d1596955313b08937598a8,Add missing dependencies (#56),code/quarkus-telemetry/quarkus-telemetry-vegetable code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/resources,56.0,Add missing dependencies,,adaptive,Azure-Samples,java-native-telemetry
 c6a5bdfc75c864b4e0754e8a4df984ddc56d0c9b,"New main with all the monitoring on (#52)
 
 * added otel
@@ -380,7 +380,7 @@ update database url
 Co-authored-by: SandraAhlgrimm <sakriema@microsoft.com>
 Co-authored-by: Sandra Ahlgrimm <sandra.kriemann@gmail.com>
 Co-authored-by: Dominique Broeglin <dominique.broeglin@gmail.com>
-Co-authored-by: Jean Bisutti <jean.bisutti@gmail.com>",.github/workflows code/quarkus-telemetry/quarkus-telemetry-superhero code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot code/spring-boot-telemetry code/spring-boot-telemetry/src/test/java/com/azure/examples/springboot/controller code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/docker code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/resources code/spring-boot-telemetry/src/main/resources/META-INF/native-image,52.0,New main with all the monitoring on,,perfective,Azure-Samples,java-native-telemetry
+Co-authored-by: Jean Bisutti <jean.bisutti@gmail.com>",code/spring-boot-telemetry/src/main/resources code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/resources code/spring-boot-telemetry code/quarkus-telemetry/quarkus-telemetry-superhero code/spring-boot-telemetry/src/test/java/com/azure/examples/springboot/controller .github/workflows code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/docker code/spring-boot-telemetry/src/main/resources/META-INF/native-image,52.0,New main with all the monitoring on,,perfective,Azure-Samples,java-native-telemetry
 3f85c35e1f604ba68a8fcd6da0e4ebd43a8f00d7,"Merge pull request #49 from brunobat/main
 
 Remove it test from main",code/quarkus-telemetry/quarkus-telemetry-superhero/src/test/java/com/azure/examples/quarkus/superhero/message,49.0,Remove it test from main,,perfective,Azure-Samples,java-native-telemetry
@@ -397,21 +397,21 @@ bc49d3cfa80902dbef548b450311632883d754ff,Rename Quarkus app,code/quarkus-telemet
 2c78f88becdaa389469c6e7f1a0113f345b99e51,small bugfix,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/repository,,,,corrective,Azure-Samples,java-native-telemetry
 7d87bf9aa536361ba45349c34161eab4a312c6e5,"Merge pull request #44 from Azure-Samples/systemsystem-uui-spring-boot
 
-Use system-uuid for id generation in Spring Boot",code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/data code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry/src/test/java/com/azure/examples/springboot/controller,,,,perfective,Azure-Samples,java-native-telemetry
-8e2233b5a8c018348481ede63018a0e44c5a425d,Use system-uuid for id generation in Spring Boot,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/data code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry/src/test/java/com/azure/examples/springboot/controller,,,,perfective,Azure-Samples,java-native-telemetry
+Use system-uuid for id generation in Spring Boot",code/spring-boot-telemetry/src/test/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/data,,,,perfective,Azure-Samples,java-native-telemetry
+8e2233b5a8c018348481ede63018a0e44c5a425d,Use system-uuid for id generation in Spring Boot,code/spring-boot-telemetry/src/test/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/data,,,,perfective,Azure-Samples,java-native-telemetry
 1257b46a1e2a9a61b8c7d8aa2a474cb4186eb2f3,"Merge pull request #42 from brunobat/add-exception-endpoint
 
-Endpoint with exception to main",code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/resource code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/data code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/docker code/quarkus-telemetry/quarkus-telemetry-superhero/src/test/java/com/azure/examples/quarkus/superhero/message code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/docker code/quarkus-telemetry/quarkus-telemetry-vegetable,,,,additive,Azure-Samples,java-native-telemetry
-2005da9ba8be9f8c6ac89527aac33373aa5eddae,remove jdbc,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry,,,,adaptive,Azure-Samples,java-native-telemetry
-0e77d1adb72c125e377fc628ad35641a3e97b5b0,Endpoint with exception,code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/resource code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/data code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/docker code/quarkus-telemetry/quarkus-telemetry-superhero/src/test/java/com/azure/examples/quarkus/superhero/message code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/docker code/quarkus-telemetry/quarkus-telemetry-vegetable,,,,additive,Azure-Samples,java-native-telemetry
+Endpoint with exception to main",code/quarkus-telemetry/quarkus-telemetry-vegetable code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-superhero/src/test/java/com/azure/examples/quarkus/superhero/message code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/docker code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/resource code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/data code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/docker,,,,additive,Azure-Samples,java-native-telemetry
+2005da9ba8be9f8c6ac89527aac33373aa5eddae,remove jdbc,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service,,,,adaptive,Azure-Samples,java-native-telemetry
+0e77d1adb72c125e377fc628ad35641a3e97b5b0,Endpoint with exception,code/quarkus-telemetry/quarkus-telemetry-vegetable code/quarkus-telemetry/quarkus-telemetry-superhero code/quarkus-telemetry/quarkus-telemetry-superhero/src/test/java/com/azure/examples/quarkus/superhero/message code/quarkus-telemetry/quarkus-telemetry-vegetable/src/main/docker code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/resource code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/java/com/azure/examples/quarkus/superhero/data code/quarkus-telemetry/quarkus-telemetry-superhero/src/main/docker,,,,additive,Azure-Samples,java-native-telemetry
 695ca472dfae17f1c32f8fbcd1f004e1b296ac61,"Merge pull request #39 from Azure-Samples/use-hibernate-for-spring-boot
 
-Use Hibernate for Spring Boot",code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/repository code/spring-boot-telemetry/src/test/resources,,,,perfective,Azure-Samples,java-native-telemetry
-07cda42d7be2f5615158fadf657615cd74b9f4a2,Merge branch 'main' into use-hibernate-for-spring-boot,code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot code/spring-boot-telemetry/src/test/resources,,,,perfective,Azure-Samples,java-native-telemetry
+Use Hibernate for Spring Boot",code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/repository code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry/src/test/resources,,,,perfective,Azure-Samples,java-native-telemetry
+07cda42d7be2f5615158fadf657615cd74b9f4a2,Merge branch 'main' into use-hibernate-for-spring-boot,code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/test/resources,,,,perfective,Azure-Samples,java-native-telemetry
 b221eb45ae5a44d2c65dee5d198aa10af4a78786,"Merge pull request #41 from Azure-Samples/spring-bean-resttemplate
 
-Use Spring bean for rest template",code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot,,,,perfective,Azure-Samples,java-native-telemetry
-f4f5a87e86b7ece9fcd5723d5bb30f659a9be04e,Use Spring bean for rest template,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot,,,,perfective,Azure-Samples,java-native-telemetry
+Use Spring bean for rest template",code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller,,,,perfective,Azure-Samples,java-native-telemetry
+f4f5a87e86b7ece9fcd5723d5bb30f659a9be04e,Use Spring bean for rest template,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller,,,,perfective,Azure-Samples,java-native-telemetry
 39e29312285909df267d9b7a6ee95b035e2046be,Downgrade hibernate,code/spring-boot-telemetry,,,,adaptive,Azure-Samples,java-native-telemetry
 4a8a7f64b6fe80662def8cf2e980e18f1b044262,"Merge pull request #40 from Azure-Samples/ability-to-call-quarkus-from-spring
 
@@ -419,11 +419,11 @@ Ability to call Heroes from Spring Veggie",code/spring-boot-telemetry/src/main/r
 58c087f65c7337846c318c7ea4ba4d7e65034f4c,"Update application.properties
 
 simplify",code/spring-boot-telemetry/src/main/resources,,,,preventive,Azure-Samples,java-native-telemetry
-e3d951786a0b662a2a7a47d197a35f004cfff457,Change property name,code/spring-boot-telemetry/src/test/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller,,,,preventive,Azure-Samples,java-native-telemetry
+e3d951786a0b662a2a7a47d197a35f004cfff457,Change property name,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/test/resources,,,,preventive,Azure-Samples,java-native-telemetry
 ae9ba45a0668ffd5d9c28154d249c3a42187e44a,Change property name,code/spring-boot-telemetry/src/test/resources,,,,preventive,Azure-Samples,java-native-telemetry
 7ada6a74f0da320e48bfdc338107ba645f301877,Remove system out,code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller,,,,preventive,Azure-Samples,java-native-telemetry
 91003d270a5dbea1946a95acd0db07a00bae1479,Ability to call Heroes from Spring Veggie,code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/controller code/spring-boot-telemetry/src/test/resources,,,,perfective,Azure-Samples,java-native-telemetry
-af4ef8a91ce9be8093c038f57e233c939606aee7,Use Hibernate for Spring Boot,code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/repository code/spring-boot-telemetry/src/test/resources,,,,additive,Azure-Samples,java-native-telemetry
+af4ef8a91ce9be8093c038f57e233c939606aee7,Use Hibernate for Spring Boot,code/spring-boot-telemetry/src/main/resources code/spring-boot-telemetry code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/repository code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/service code/spring-boot-telemetry/src/main/java/com/azure/examples/springboot/model code/spring-boot-telemetry/src/test/resources,,,,additive,Azure-Samples,java-native-telemetry
 601fe038796ed7ca9c18584a8977e3a9b32f2129,Update player version to 1.32.1,.,95.0,chore: release 1.31.0,"*Description of changes:*
 
 Updating SDK version to `1.31.0`
@@ -432,26 +432,26 @@ By submitting this pull request, I confirm that you can use, modify, copy, and r
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
 e9c313a27667a4fda8cc94ccd7263d3359702752,"Merge pull request #95 from aws-samples/release/1.31.0
 
-chore: release 1.31.0",samples/cloud-player samples/service-worker .,93.0,Player version 1.30.0,"*Issue #, if available:*
+chore: release 1.31.0",samples/cloud-player . samples/service-worker,93.0,Player version 1.30.0,"*Issue #, if available:*
 
 *Description of changes:*
 
 
 By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
-8abda523cf576687b94caa1cb57e81a3f68e0964,chore: release 1.31.0,samples/cloud-player samples/service-worker .,92.0,chore: release 1.29.0,"release 1.29.0
+8abda523cf576687b94caa1cb57e81a3f68e0964,chore: release 1.31.0,samples/cloud-player . samples/service-worker,92.0,chore: release 1.29.0,"release 1.29.0
 
 By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
 6206309bb8301868ae2cd5e09b381e494fdeb85f,"Merge pull request #93 from aws-samples/1.30.0
 
-Player version 1.30.0",samples/cloud-player samples/service-worker .,92.0,chore: release 1.29.0,"release 1.29.0
+Player version 1.30.0",samples/cloud-player . samples/service-worker,92.0,chore: release 1.29.0,"release 1.29.0
 
 By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
 59d75a79b479e859b53946f37325788fa4a5c394,"Merge pull request #92 from aws-samples/release/1.29.0
 
-chore: release 1.29.0",samples/cloud-player samples/service-worker .,91.0,chore: release 1.28.0,"*Issue #, if available:*
+chore: release 1.29.0",samples/cloud-player . samples/service-worker,91.0,chore: release 1.28.0,"*Issue #, if available:*
 
 *Description of changes:*
 
@@ -466,7 +466,7 @@ By submitting this pull request, I confirm that you can use, modify, copy, and r
 
 By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
-38cbb1b836446ebfe578e4807427332566cb2fea,Update player version to 1.30.0,samples/cloud-player samples/service-worker .,88.0,chore: release 1.25.0,"*Issue #, if available:*
+38cbb1b836446ebfe578e4807427332566cb2fea,Update player version to 1.30.0,samples/cloud-player . samples/service-worker,88.0,chore: release 1.25.0,"*Issue #, if available:*
 
 *Description of changes:*
 
@@ -476,13 +476,13 @@ By submitting this pull request, I confirm that you can use, modify, copy, and r
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
 59d75a79b479e859b53946f37325788fa4a5c394,"Merge pull request #92 from aws-samples/release/1.29.0
 
-chore: release 1.29.0",samples/cloud-player samples/service-worker .,86.0,samples: add service worker example,"*Description of changes:*
+chore: release 1.29.0",samples/cloud-player . samples/service-worker,86.0,samples: add service worker example,"*Description of changes:*
 
 This adds an example of setting up and configuring a service worker for lower latency playback on iOS Safari.
 
 By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
-2264647bf5d5e808bc0a05ff20c3019bb30737d4,chore:release 1.29.0,samples/cloud-player samples/service-worker .,85.0,chore: release 1.23.0,"
+2264647bf5d5e808bc0a05ff20c3019bb30737d4,chore:release 1.29.0,samples/cloud-player . samples/service-worker,85.0,chore: release 1.23.0,"
 
 Updating samples to use latest release
 
@@ -490,38 +490,38 @@ By submitting this pull request, I confirm that you can use, modify, copy, and r
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
 bce2a3ea8c4972683bdfc8bcc1bad36dbd6c3e68,"Merge pull request #91 from aws-samples/release/1.28.0
 
-chore: release 1.28.0",samples/cloud-player samples/service-worker .,82.0,chore: release 1.22.0,"*Description of changes:*
+chore: release 1.28.0",samples/cloud-player . samples/service-worker,82.0,chore: release 1.22.0,"*Description of changes:*
 
 updating sample to use latest release
 
 By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
-8cc3740b0870e9536c597a61e8bd99bbaee82798,chore: release 1.28.0,samples/cloud-player samples/service-worker .,81.0,chore: release 1.21.0,"*Issue #, if available:*
+8cc3740b0870e9536c597a61e8bd99bbaee82798,chore: release 1.28.0,samples/cloud-player . samples/service-worker,81.0,chore: release 1.21.0,"*Issue #, if available:*
 
 *Description of changes:*
 
 
 By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
-689f8073ec03d4a113c0bed0bd09993817d4a2cb,Update to 1.27.0,samples/cloud-player samples/service-worker .,77.0,chore:release 1.19.0,"By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
+689f8073ec03d4a113c0bed0bd09993817d4a2cb,Update to 1.27.0,samples/cloud-player . samples/service-worker,77.0,chore:release 1.19.0,"By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
 b6e88128a48bf59a7084ab47723ded9201c18a4e,"Merge pull request #89 from aws-samples/release/1.26.0
 
-chore: release 1.26.0",samples/cloud-player samples/service-worker .,75.0,chore:release 1.18.0,"*Issue #, if available:*
+chore: release 1.26.0",samples/cloud-player . samples/service-worker,75.0,chore:release 1.18.0,"*Issue #, if available:*
 
 *Description of changes:*
 1.18.0 IVS Release
 
 By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
-db7e472c257ff237cff0744fca625baa0d3bce8a,chore: release 1.26.0,samples/cloud-player samples/service-worker .,72.0,chore:release 1.16.0,"*Description of changes:*
+db7e472c257ff237cff0744fca625baa0d3bce8a,chore: release 1.26.0,samples/cloud-player . samples/service-worker,72.0,chore:release 1.16.0,"*Description of changes:*
 1.16.0 IVS Release
 
 By submitting this pull request, I confirm that you can use, modify, copy, and redistribute this contribution, under the terms of your choice.
 ",adaptive,aws-samples,amazon-ivis-player-web-samples
 928eb56b48f5ce5ccb1dfcce5c3e813826f287ed,"Merge pull request #88 from aws-samples/release/1.25.0
 
-chore: release 1.25.0",samples/cloud-player samples/service-worker .,70.0,Bump json5 and babel-loader,"Bumps [json5](https://github.com/json5/json5) to 2.2.3 and updates ancestor dependency [babel-loader](https://github.com/babel/babel-loader). These dependencies need to be updated together.
+chore: release 1.25.0",samples/cloud-player . samples/service-worker,70.0,Bump json5 and babel-loader,"Bumps [json5](https://github.com/json5/json5) to 2.2.3 and updates ancestor dependency [babel-loader](https://github.com/babel/babel-loader). These dependencies need to be updated together.
 
 Updates `json5` from 2.2.0 to 2.2.3
 <details>
@@ -663,7 +663,7 @@ You can trigger Dependabot actions by commenting on this PR:
 You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/aws-samples/amazon-ivs-player-web-sample/network/alerts).
 
 </details>",adaptive,aws-samples,amazon-ivis-player-web-samples
-a488a3be4857f2fd5095129a5c7024fd8349e8c3,chore: release 1.25.0,samples/cloud-player samples/service-worker .,69.0,Bump express from 4.17.2 to 4.18.2,"Bumps [express](https://github.com/expressjs/express) from 4.17.2 to 4.18.2.
+a488a3be4857f2fd5095129a5c7024fd8349e8c3,chore: release 1.25.0,samples/cloud-player . samples/service-worker,69.0,Bump express from 4.17.2 to 4.18.2,"Bumps [express](https://github.com/expressjs/express) from 4.17.2 to 4.18.2.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href=""https://github.com/expressjs/express/releases"">express's releases</a>.</em></p>
@@ -999,8 +999,8 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 6aede54831b8027375070681feb88870da8b5981,Update SDK to 1.24.0,samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
 f2e48ab61a34163d613634c7e1106c20a06fc5fb,"Merge pull request #86 from aws-samples/task/service-worker-example
 
-samples: add service worker example",samples/service-worker samples .,,,,additive,aws-samples,amazon-ivis-player-web-samples
-3779119f546013508a17aa37cfdb77e332c39962,samples: add service worker example,samples/service-worker samples .,,,,additive,aws-samples,amazon-ivis-player-web-samples
+samples: add service worker example",samples . samples/service-worker,,,,additive,aws-samples,amazon-ivis-player-web-samples
+3779119f546013508a17aa37cfdb77e332c39962,samples: add service worker example,samples . samples/service-worker,,,,additive,aws-samples,amazon-ivis-player-web-samples
 6e3014b80425b85796f0e7076c9813fbbb6bf4fc,"Merge pull request #85 from aws-samples/release/1.23.0
 
 chore: release 1.23.0",samples/cloud-player .,,,,adaptive,aws-samples,amazon-ivis-player-web-samples
